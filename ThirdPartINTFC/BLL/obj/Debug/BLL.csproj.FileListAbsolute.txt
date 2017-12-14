@@ -1,0 +1,11 @@
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\BLL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\BLL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\DAL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\Model.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\Utils.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\DAL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\Model.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\Utils.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.pdb

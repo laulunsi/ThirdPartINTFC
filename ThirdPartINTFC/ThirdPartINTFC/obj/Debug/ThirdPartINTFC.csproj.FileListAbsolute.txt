@@ -1,0 +1,6 @@
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThirdPartINTFC.exe
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThirdPartINTFC.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ZIT.ThirdPartINTFC.MainUI.Properties.Resources.resources
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.csproj.GenerateResource.Cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.exe
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.pdb

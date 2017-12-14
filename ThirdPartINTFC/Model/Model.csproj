@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JH_AMBULANCEINFO.cs" />
+    <Compile Include="JH_AMBULANCEPOSITION.cs" />
+    <Compile Include="JH_AMBULANCESTATUS.cs" />
     <Compile Include="JH_CHARGEBACK.cs" />
     <Compile Include="JH_CHARGEBACKRESULT.cs" />
     <Compile Include="JH_FEEDBACK.cs" />

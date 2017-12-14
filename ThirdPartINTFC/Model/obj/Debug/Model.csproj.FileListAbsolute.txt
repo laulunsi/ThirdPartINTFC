@@ -1,0 +1,4 @@
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\bin\Debug\Model.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\bin\Debug\Model.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.pdb

@@ -1,0 +1,9 @@
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\DAL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\DAL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Model.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Utils.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Model.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Utils.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.pdb

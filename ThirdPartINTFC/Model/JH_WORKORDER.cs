@@ -8,90 +8,90 @@ namespace ZIT.ThirdPartINTFC.Model
     /// <summary>
     /// 工单同步
     /// </summary>
-    public class JH_WORKORDER
+    public class JhWorkorder
     {
-        private string zldbh;
+        private string _zldbh;
 
-        private string bjr;
+        private string _bjr;
 
-        private string xb;
+        private string _xb;
 
-        private string lxdh;
+        private string _lxdh;
 
-        private string sfdz;
+        private string _sfdz;
 
-        private string bjsj;
+        private string _bjsj;
 
-        private string bjnr;
+        private string _bjnr;
 
-        private string ext1;
+        private string _ext1;
 
-        private string ext2;
+        private string _ext2;
 
-        private string ext3;
+        private string _ext3;
 
-        private string ext4;
+        private string _ext4;
 
-        private string ext5;
+        private string _ext5;
         
         /// <summary>
         /// 指令单编号
         /// </summary>
-        public string ZLDBH { get => zldbh; set => zldbh = value; }
+        public string Zldbh { get => _zldbh; set => _zldbh = value; }
         
         /// <summary>
         /// 报警人
         /// </summary>
-        public string BJR { get => bjr; set => bjr = value; }
+        public string Bjr { get => _bjr; set => _bjr = value; }
 
         /// <summary>
         /// 性别
         /// </summary>
-        public string XB { get => xb; set => xb = value; }
+        public string Xb { get => _xb; set => _xb = value; }
 
         /// <summary>
         /// 联系电话
         /// </summary>
-        public string LXDH { get => lxdh; set => lxdh = value; }
+        public string Lxdh { get => _lxdh; set => _lxdh = value; }
 
         /// <summary>
         /// 事发地址
         /// </summary>
-        public string SFDZ { get => sfdz; set => sfdz = value; }
+        public string Sfdz { get => _sfdz; set => _sfdz = value; }
 
         /// <summary>
         /// 报警时间
         /// </summary>
-        public string BJSJ { get => bjsj; set => bjsj = value; }
+        public string Bjsj { get => _bjsj; set => _bjsj = value; }
         
         /// <summary>
         /// 报警内容
         /// </summary>
-        public string BJNR { get => bjnr; set => bjnr = value; }
+        public string Bjnr { get => _bjnr; set => _bjnr = value; }
 
         /// <summary>
         /// 冗余字段1
         /// </summary>
-        public string EXT1 { get => ext1; set => ext1 = value; }
+        public string Ext1 { get => _ext1; set => _ext1 = value; }
 
         /// <summary>
         /// 冗余字段2
         /// </summary>
-        public string EXT2 { get => ext2; set => ext2 = value; }
+        public string Ext2 { get => _ext2; set => _ext2 = value; }
 
         /// <summary>
         /// 冗余字段3
         /// </summary>
-        public string EXT3 { get => ext3; set => ext3 = value; }
+        public string Ext3 { get => _ext3; set => _ext3 = value; }
 
         /// <summary>
         /// 冗余字段4
         /// </summary>
-        public string EXT4 { get => ext4; set => ext4 = value; }
+        public string Ext4 { get => _ext4; set => _ext4 = value; }
 
         /// <summary>
         /// 冗余字段5
         /// </summary>
-        public string EXT5 { get => ext5; set => ext5 = value; }
+        public string Ext5 { get => _ext5; set => _ext5 = value; }
     }
 }

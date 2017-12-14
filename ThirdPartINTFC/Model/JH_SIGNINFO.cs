@@ -8,69 +8,69 @@ namespace ZIT.ThirdPartINTFC.Model
     /// <summary>
     /// 工单签收
     /// </summary>
-    public class JH_SIGNINFO
+    public class JhSigninfo
     {
-        private string zldbh;
+        private string _zldbh;
 
-        private string qsdw;
+        private string _qsdw;
 
-        private string qsr;
+        private string _qsr;
 
-        private string qssj;
+        private string _qssj;
 
-        private string ext1;
+        private string _ext1;
 
-        private string ext2;
+        private string _ext2;
 
-        private string ext3;
+        private string _ext3;
 
-        private string ext4;
+        private string _ext4;
 
-        private string ext5;
+        private string _ext5;
 
         /// <summary>
         /// 指令单编号
         /// </summary>
-        public string ZLDBH { get => zldbh; set => zldbh = value; }
+        public string Zldbh { get => _zldbh; set => _zldbh = value; }
 
         /// <summary>
         /// 签收单位
         /// </summary>
-        public string QSDW { get => qsdw; set => qsdw = value; }
+        public string Qsdw { get => _qsdw; set => _qsdw = value; }
 
         /// <summary>
         /// 签收人名
         /// </summary>
-        public string QSR { get => qsr; set => qsr = value; }
+        public string Qsr { get => _qsr; set => _qsr = value; }
 
         /// <summary>
         /// 签收时间
         /// </summary>
-        public string QSSJ { get => qssj; set => qssj = value; }
+        public string Qssj { get => _qssj; set => _qssj = value; }
 
         /// <summary>
         /// 冗余字段1
         /// </summary>
-        public string EXT1 { get => ext1; set => ext1 = value; }
+        public string Ext1 { get => _ext1; set => _ext1 = value; }
 
         /// <summary>
         /// 冗余字段2
         /// </summary>
-        public string EXT2 { get => ext2; set => ext2 = value; }
+        public string Ext2 { get => _ext2; set => _ext2 = value; }
 
         /// <summary>
         /// 冗余字段3
         /// </summary>
-        public string EXT3 { get => ext3; set => ext3 = value; }
+        public string Ext3 { get => _ext3; set => _ext3 = value; }
 
         /// <summary>
         /// 冗余字段4
         /// </summary>
-        public string EXT4 { get => ext4; set => ext4 = value; }
+        public string Ext4 { get => _ext4; set => _ext4 = value; }
 
         /// <summary>
         /// 冗余字段5
         /// </summary>
-        public string EXT5 { get => ext5; set => ext5 = value; }
+        public string Ext5 { get => _ext5; set => _ext5 = value; }
     }
 }

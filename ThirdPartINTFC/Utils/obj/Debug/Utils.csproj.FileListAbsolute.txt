@@ -1,0 +1,4 @@
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\bin\Debug\Utils.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\bin\Debug\Utils.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.pdb
