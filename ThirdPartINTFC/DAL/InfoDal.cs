@@ -8,6 +8,11 @@ namespace ZIT.ThirdPartINTFC.DAL
 {
     public class InfoDal
     {
+        public static bool ConnectTest()
+        {
+            return OracleHelper.ExecuteTest();
+        }
+
         public static IList<JhWorkorder> Get_WORKORDER()
         {
             return OracleHelper.ExecuteList<JhWorkorder>("SELECT * FROM V_WORKORDER", CommandType.Text, null);

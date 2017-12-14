@@ -25,6 +25,38 @@ namespace ZIT.ThirdPartINTFC.Utils
 
         #region 方法
 
+        #region 测试
+        /// <summary>
+        /// 用于测试数据库连接是否有效
+        /// </summary>
+        /// <returns></returns>
+        public static bool ExecuteTest()
+        {
+            bool bln = false;
+            try
+            {
+                using (OracleConnection con =new OracleConnection(DbConnectStr))
+                {
+                    using (OracleCommand cmd = new OracleCommand("SELECT SYSDATE FROM DUAL", con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        object obj = cmd.ExecuteOracleScalar();
+                        if (obj != null && obj != DBNull.Value)
+                        {
+                            bln = true;
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                bln = false;
+            }
+            return bln;
+        }
+
+
+        #endregion
         #region 执行返回多条记录的泛型集合对象
         /// <summary>
         /// 执行返回多条记录的泛型集合对象

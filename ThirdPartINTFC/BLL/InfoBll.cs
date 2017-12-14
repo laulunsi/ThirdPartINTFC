@@ -8,6 +8,15 @@ namespace ZIT.ThirdPartINTFC.BLL
     {
         #region 方法
         /// <summary>
+        /// 获取当前数据库是否可以连接
+        /// </summary>
+        /// <returns></returns>
+        public static bool ConnectTest()
+        {
+            return InfoDal.ConnectTest();
+        }
+
+        /// <summary>
         /// 获取工单同步信息
         /// </summary>
         /// <returns></returns>
