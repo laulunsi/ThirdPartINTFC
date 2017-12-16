@@ -1,28 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 工单同步
+    /// 救护车实时坐标信息
     /// </summary>
-    public class JhWorkorder
+    public class JhAmbulanceposition
     {
         private string _zldbh;
 
-        private string _bjr;
+        private string _jhccph;
 
-        private string _xb;
+        private string _xzb;
 
-        private string _lxdh;
+        private string _yzb;
 
-        private string _sfdz;
-
-        private string _bjsj;
-
-        private string _bjnr;
+        private string _time;
 
         private string _ext1;
 
@@ -33,41 +24,31 @@ namespace ZIT.ThirdPartINTFC.Model
         private string _ext4;
 
         private string _ext5;
-        
+
         /// <summary>
         /// 指令单编号
         /// </summary>
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
-        
-        /// <summary>
-        /// 报警人
-        /// </summary>
-        public string Bjr { get => _bjr; set => _bjr = value; }
 
         /// <summary>
-        /// 性别
+        /// 救护车车牌号
         /// </summary>
-        public string Xb { get => _xb; set => _xb = value; }
+        public string Jhccph { get => _jhccph; set => _jhccph = value; }
 
         /// <summary>
-        /// 联系电话
+        /// 经度
         /// </summary>
-        public string Lxdh { get => _lxdh; set => _lxdh = value; }
+        public string Xzb { get => _xzb; set => _xzb = value; }
 
         /// <summary>
-        /// 事发地址
+        /// 纬度
         /// </summary>
-        public string Sfdz { get => _sfdz; set => _sfdz = value; }
+        public string Yzb { get => _yzb; set => _yzb = value; }
 
         /// <summary>
-        /// 报警时间
+        /// 时间
         /// </summary>
-        public string Bjsj { get => _bjsj; set => _bjsj = value; }
-        
-        /// <summary>
-        /// 报警内容
-        /// </summary>
-        public string Bjnr { get => _bjnr; set => _bjnr = value; }
+        public string Time { get => _time; set => _time = value; }
 
         /// <summary>
         /// 冗余字段1

@@ -1,24 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 救护车实时坐标信息
+    /// 工单退单
     /// </summary>
-    public class JhAmbulanceposition
+    public class JhChargeback
     {
         private string _zldbh;
 
-        private string _jhccph;
+        private string _tdbh;
 
-        private string _xzb;
+        private string _tddw;
 
-        private string _yzb;
+        private string _tdr;
 
-        private string _time;
+        private string _tdsj;
+
+        private string _tdyy;
 
         private string _ext1;
 
@@ -36,25 +33,29 @@ namespace ZIT.ThirdPartINTFC.Model
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
 
         /// <summary>
-        /// 救护车车牌号
+        /// 退单编号
         /// </summary>
-        public string Jhccph { get => _jhccph; set => _jhccph = value; }
+        public string Tdbh { get => _tdbh; set => _tdbh = value; }
 
         /// <summary>
-        /// 经度
+        /// 退单单位代码
         /// </summary>
-        public string Xzb { get => _xzb; set => _xzb = value; }
+        public string Tddw { get => _tddw; set => _tddw = value; }
 
         /// <summary>
-        /// 纬度
+        /// 退单人名
         /// </summary>
-        public string Yzb { get => _yzb; set => _yzb = value; }
+        public string Tdr { get => _tdr; set => _tdr = value; }
 
         /// <summary>
-        /// 时间
+        /// 退单时间
         /// </summary>
-        public string Time { get => _time; set => _time = value; }
+        public string Tdsj { get => _tdsj; set => _tdsj = value; }
 
+        /// <summary>
+        /// 退单原因
+        /// </summary>
+        public string Tdyy { get => _tdyy; set => _tdyy = value; }
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -79,5 +80,6 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
+
     }
 }

@@ -1,26 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 救护车的出车信息
+    /// 退单结果反馈
     /// </summary>
-    public class JhAmbulancestatus
+    public class JhChargebackresult
     {
         private string _zldbh;
 
-        private string _jhccph;
+        private string _tdbh;
 
-        private string _status;
+        private string _tdjg;
 
-        private string _checi;
-
-        private string _time;
-
-        private string _rwzzyy;
+        private string _jjtdly;
 
         private string _ext1;
 
@@ -38,30 +29,21 @@ namespace ZIT.ThirdPartINTFC.Model
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
 
         /// <summary>
-        /// 救护车车牌号
+        /// 退单编号
         /// </summary>
-        public string Jhccph { get => _jhccph; set => _jhccph = value; }
+        public string Tdbh { get => _tdbh; set => _tdbh = value; }
 
         /// <summary>
-        /// 救护车状态
+        /// 退单结果 
+        /// 0:接受退单
+        /// 1:拒绝退单
         /// </summary>
-        public string Status { get => _status; set => _status = value; }
+        public string Tdjg { get => _tdjg; set => _tdjg = value; }
 
         /// <summary>
-        /// 车次
+        /// 拒绝退单理由
         /// </summary>
-        public string Checi { get => _checi; set => _checi = value; }
-
-        /// <summary>
-        /// 时间
-        /// </summary>
-        public string Time { get => _time; set => _time = value; }
-
-        /// <summary>
-        /// 任务终止原因
-        /// </summary>
-        public string Rwzzyy { get => _rwzzyy; set => _rwzzyy = value; }
-
+        public string Jjtdly { get => _jjtdly; set => _jjtdly = value; }
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -86,5 +68,6 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
+
     }
 }

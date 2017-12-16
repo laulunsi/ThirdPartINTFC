@@ -1,22 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 退单结果反馈
+    /// 工单处置回复
     /// </summary>
-    public class JhChargebackresult
+    public class JhFeedback
     {
         private string _zldbh;
 
-        private string _tdbh;
+        private string _fkdbh;
 
-        private string _tdjg;
+        private string _fkdw;
 
-        private string _jjtdly;
+        private string _fkr;
+
+        private string _fksj;
+
+        private string _fknr;
+
+        private string _fkjqlb;
 
         private string _ext1;
 
@@ -34,21 +35,34 @@ namespace ZIT.ThirdPartINTFC.Model
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
 
         /// <summary>
-        /// 退单编号
+        /// 反馈单编号
         /// </summary>
-        public string Tdbh { get => _tdbh; set => _tdbh = value; }
+        public string Fkdbh { get => _fkdbh; set => _fkdbh = value; }
 
         /// <summary>
-        /// 退单结果 
-        /// 0:接受退单
-        /// 1:拒绝退单
+        /// 反馈单位
         /// </summary>
-        public string Tdjg { get => _tdjg; set => _tdjg = value; }
+        public string Fkdw { get => _fkdw; set => _fkdw = value; }
 
         /// <summary>
-        /// 拒绝退单理由
+        /// 反馈人
         /// </summary>
-        public string Jjtdly { get => _jjtdly; set => _jjtdly = value; }
+        public string Fkr { get => _fkr; set => _fkr = value; }
+
+        /// <summary>
+        /// 反馈时间
+        /// </summary>
+        public string Fksj { get => _fksj; set => _fksj = value; }
+
+        /// <summary>
+        /// 反馈内容
+        /// </summary>
+        public string Fknr { get => _fknr; set => _fknr = value; }
+
+        /// <summary>
+        /// 反馈警情类别(过程反馈/结果反馈)
+        /// </summary>
+        public string Fkjqlb { get => _fkjqlb; set => _fkjqlb = value; }
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -73,6 +87,5 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
-
     }
 }

@@ -1,26 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 工单退单
+    /// 工单签收
     /// </summary>
-    public class JhChargeback
+    public class JhSigninfo
     {
         private string _zldbh;
 
-        private string _tdbh;
+        private string _qsdw;
 
-        private string _tddw;
+        private string _qsr;
 
-        private string _tdr;
-
-        private string _tdsj;
-
-        private string _tdyy;
+        private string _qssj;
 
         private string _ext1;
 
@@ -38,29 +29,20 @@ namespace ZIT.ThirdPartINTFC.Model
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
 
         /// <summary>
-        /// 退单编号
+        /// 签收单位
         /// </summary>
-        public string Tdbh { get => _tdbh; set => _tdbh = value; }
+        public string Qsdw { get => _qsdw; set => _qsdw = value; }
 
         /// <summary>
-        /// 退单单位代码
+        /// 签收人名
         /// </summary>
-        public string Tddw { get => _tddw; set => _tddw = value; }
+        public string Qsr { get => _qsr; set => _qsr = value; }
 
         /// <summary>
-        /// 退单人名
+        /// 签收时间
         /// </summary>
-        public string Tdr { get => _tdr; set => _tdr = value; }
+        public string Qssj { get => _qssj; set => _qssj = value; }
 
-        /// <summary>
-        /// 退单时间
-        /// </summary>
-        public string Tdsj { get => _tdsj; set => _tdsj = value; }
-
-        /// <summary>
-        /// 退单原因
-        /// </summary>
-        public string Tdyy { get => _tdyy; set => _tdyy = value; }
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -85,6 +67,5 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
-
     }
 }

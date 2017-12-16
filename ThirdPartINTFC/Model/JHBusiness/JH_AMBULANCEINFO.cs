@@ -1,28 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 工单处置回复
+    /// 救护车的派车信息
     /// </summary>
-    public class JhFeedback
+    public class JhAmbulanceinfo
     {
         private string _zldbh;
 
-        private string _fkdbh;
+        private string _jhccph;
 
-        private string _fkdw;
+        private string _ssjg;
 
-        private string _fkr;
+        private string _lxdh;
 
-        private string _fksj;
+        private string _jsyxm;
 
-        private string _fknr;
+        private string _ysxm;
 
-        private string _fkjqlb;
+        private string _ysdh;
+
+        private string _gpsstatus;
 
         private string _ext1;
 
@@ -40,34 +37,40 @@ namespace ZIT.ThirdPartINTFC.Model
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
 
         /// <summary>
-        /// 反馈单编号
+        /// 救护车车牌号
         /// </summary>
-        public string Fkdbh { get => _fkdbh; set => _fkdbh = value; }
+        public string Jhccph { get => _jhccph; set => _jhccph = value; }
 
         /// <summary>
-        /// 反馈单位
+        /// 所属机构
         /// </summary>
-        public string Fkdw { get => _fkdw; set => _fkdw = value; }
+        public string Ssjg { get => _ssjg; set => _ssjg = value; }
 
         /// <summary>
-        /// 反馈人
+        /// 所属机构的联系电话
         /// </summary>
-        public string Fkr { get => _fkr; set => _fkr = value; }
+        public string Lxdh { get => _lxdh; set => _lxdh = value; }
 
         /// <summary>
-        /// 反馈时间
+        /// 驾驶员姓名
         /// </summary>
-        public string Fksj { get => _fksj; set => _fksj = value; }
+        public string Jsyxm { get => _jsyxm; set => _jsyxm = value; }
 
         /// <summary>
-        /// 反馈内容
+        /// 医生姓名
         /// </summary>
-        public string Fknr { get => _fknr; set => _fknr = value; }
+        public string Ysxm { get => _ysxm; set => _ysxm = value; }
 
         /// <summary>
-        /// 反馈警情类别(过程反馈/结果反馈)
+        /// 医生联系电话
         /// </summary>
-        public string Fkjqlb { get => _fkjqlb; set => _fkjqlb = value; }
+        public string Ysdh { get => _ysdh; set => _ysdh = value; }
+
+        /// <summary>
+        /// 车载GPS状态
+        /// </summary>
+        public string Gpsstatus { get => _gpsstatus; set => _gpsstatus = value; }
+        
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -92,5 +95,6 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
+
     }
 }

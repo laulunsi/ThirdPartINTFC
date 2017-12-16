@@ -13,14 +13,19 @@ namespace ZIT.ThirdPartINTFC.DAL
             return OracleHelper.ExecuteTest();
         }
 
+        public static IList<Business> Get_BUSSINFO()
+        {
+            return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1 FROM V_BUSSINFO", CommandType.Text, null);
+        }
+
         public static IList<JhWorkorder> Get_WORKORDER()
         {
-            return OracleHelper.ExecuteList<JhWorkorder>("SELECT * FROM V_WORKORDER", CommandType.Text, null);
+            return OracleHelper.ExecuteList<JhWorkorder>("SELECT BAJNR,BJR,BJSJ,LXDH,SFDZ,XB,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_WORKORDER", CommandType.Text, null);
         }
 
         public static IList<JhChargebackresult> Get_CHARGEBACKRESULT()
         {
-            return OracleHelper.ExecuteList<JhChargebackresult>("SELECT * FROM V_CHARGEBACKRESULT", CommandType.Text, null);
+            return OracleHelper.ExecuteList<JhChargebackresult>("SELECT JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_CHARGEBACKRESULT", CommandType.Text, null);
         }
 
         public static bool Update_SIGNINFO(JhSigninfo obj)

@@ -8,6 +8,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using ZIT.ThirdPartINTFC.Model;
 
 namespace ZIT.ThirdPartINTFC.BLL.BSS
 {
@@ -20,11 +21,7 @@ namespace ZIT.ThirdPartINTFC.BLL.BSS
 
         private IPEndPoint remoteIPEP;
 
-        private ConcurrentQueue<string> RecvQueue;
-
-        private ConcurrentQueue<string> SendQueue;
-
-        public static UdpClient instance = null;
+        public ConcurrentQueue<string> RecvMsg;
         #endregion
 
         #region 构造函数
@@ -32,11 +29,10 @@ namespace ZIT.ThirdPartINTFC.BLL.BSS
         public Client(short port, IPEndPoint remote)
         {
             client = new UdpClient(port);
-            RecvQueue = new ConcurrentQueue<string>();
-            SendQueue = new ConcurrentQueue<string>();
-            if (IPcanFind(Convert.ToString(remote.Address)))
+            if (PING(Convert.ToString(remote.Address)))
             {
                 remoteIPEP = remote;
+                
             }
             else
             {
@@ -48,7 +44,7 @@ namespace ZIT.ThirdPartINTFC.BLL.BSS
         #region 方法
 
 
-        private bool IPcanFind(string ipaddress)
+        private bool PING(string ipaddress)
         {
             bool bln = false;
             Ping ping = new Ping();
@@ -65,16 +61,9 @@ namespace ZIT.ThirdPartINTFC.BLL.BSS
 
         public void StartListen()
         {
-            ThreadPool.QueueUserWorkItem(Handshake);
             ThreadPool.QueueUserWorkItem(ReceiveMsg);
         }
 
-
-
-        private void Handshake(object state)
-        {
-            throw new NotImplementedException();
-        }
 
         private void ReceiveMsg(object state)
         {
@@ -84,34 +73,31 @@ namespace ZIT.ThirdPartINTFC.BLL.BSS
                 {
                     IPEndPoint recvipep = null;
                     byte[] buffer =  client.Receive(ref recvipep);
-                    if (recvipep != null)
+                    if (recvipep != null && buffer.Length > 0)
                     {
-                        
-                    }
-                    if (buffer.Length>0)
-                    {
-                        string Msg = Encoding.ASCII.GetString(buffer);
+                        string message = Encoding.ASCII.GetString(buffer);
+                        RaiseReceiveEvent(message, recvipep);
                     }
                 }
             }
             
         }
 
-        public bool SendMsg()
+        /// <summary>
+        /// 发送信息
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public bool SendMsg(string message)
         {
             bool bln = false;
-            while (SendQueue.Count > 0)
+            byte[] buff = Encoding.ASCII.GetBytes(message);
+            if (client.Send(buff, buff.Length, remoteIPEP) == buff.Length)
             {
-                if (SendQueue.TryPeek(out string message))
-                {
-                    byte[] buff = Encoding.ASCII.GetBytes(message);
-                    if (client.Send(buff, buff.Length, remoteIPEP) == buff.Length)
-                    {
-                        SendQueue.TryDequeue(out message);
-                    }
-                }
+                bln = true;
+                RaiseSendEvent(message,remoteIPEP);
             }
-            Thread.Sleep(1000);
+            return bln;
         }
 
         #endregion
@@ -127,13 +113,28 @@ namespace ZIT.ThirdPartINTFC.BLL.BSS
             ErrOccurEvent?.Invoke(err);
         }
 
+        /// <summary>
+        /// 收到信息事件
+        /// </summary>
+        public event ReceiveHandler ReceiveEvent;
+        public delegate void ReceiveHandler(string message, IPEndPoint ipep);
+        public void RaiseReceiveEvent(string message, IPEndPoint ipep)
+        {
+            ReceiveEvent?.Invoke(message,ipep);
+        }
 
+        /// <summary>
+        /// 发送信息事件
+        /// </summary>
+        public event SendHandler SendEvent;
+        public delegate void SendHandler(string message, IPEndPoint ipep);
+        public void RaiseSendEvent(string message, IPEndPoint ipep)
+        {
+            SendEvent?.Invoke(message, ipep);
+        }
 
         #endregion
     }
 
-    public class ErrMsg
-    {
-        public string message;
-    }
+
 }

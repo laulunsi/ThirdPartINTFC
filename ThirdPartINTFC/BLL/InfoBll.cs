@@ -16,6 +16,11 @@ namespace ZIT.ThirdPartINTFC.BLL
             return InfoDal.ConnectTest();
         }
 
+        public static IList<Business> Get_BUSSINFO()
+        {
+            return InfoDal.Get_BUSSINFO();
+        }
+
         /// <summary>
         /// 获取工单同步信息
         /// </summary>

@@ -1,30 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ZIT.ThirdPartINTFC.Model
+﻿namespace ZIT.ThirdPartINTFC.Model
 {
     /// <summary>
-    /// 救护车的派车信息
+    /// 工单同步
     /// </summary>
-    public class JhAmbulanceinfo
+    public class JhWorkorder
     {
         private string _zldbh;
 
-        private string _jhccph;
+        private string _bjr;
 
-        private string _ssjg;
+        private string _xb;
 
         private string _lxdh;
 
-        private string _jsyxm;
+        private string _sfdz;
 
-        private string _ysxm;
+        private string _bjsj;
 
-        private string _ysdh;
-
-        private string _gpsstatus;
+        private string _bjnr;
 
         private string _ext1;
 
@@ -35,47 +28,42 @@ namespace ZIT.ThirdPartINTFC.Model
         private string _ext4;
 
         private string _ext5;
-
+        
         /// <summary>
         /// 指令单编号
         /// </summary>
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
-
+        
         /// <summary>
-        /// 救护车车牌号
+        /// 报警人
         /// </summary>
-        public string Jhccph { get => _jhccph; set => _jhccph = value; }
+        public string Bjr { get => _bjr; set => _bjr = value; }
 
         /// <summary>
-        /// 所属机构
+        /// 性别
         /// </summary>
-        public string Ssjg { get => _ssjg; set => _ssjg = value; }
+        public string Xb { get => _xb; set => _xb = value; }
 
         /// <summary>
-        /// 所属机构的联系电话
+        /// 联系电话
         /// </summary>
         public string Lxdh { get => _lxdh; set => _lxdh = value; }
 
         /// <summary>
-        /// 驾驶员姓名
+        /// 事发地址
         /// </summary>
-        public string Jsyxm { get => _jsyxm; set => _jsyxm = value; }
+        public string Sfdz { get => _sfdz; set => _sfdz = value; }
 
         /// <summary>
-        /// 医生姓名
+        /// 报警时间
         /// </summary>
-        public string Ysxm { get => _ysxm; set => _ysxm = value; }
-
-        /// <summary>
-        /// 医生联系电话
-        /// </summary>
-        public string Ysdh { get => _ysdh; set => _ysdh = value; }
-
-        /// <summary>
-        /// 车载GPS状态
-        /// </summary>
-        public string Gpsstatus { get => _gpsstatus; set => _gpsstatus = value; }
+        public string Bjsj { get => _bjsj; set => _bjsj = value; }
         
+        /// <summary>
+        /// 报警内容
+        /// </summary>
+        public string Bjnr { get => _bjnr; set => _bjnr = value; }
+
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -100,6 +88,5 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
-
     }
 }

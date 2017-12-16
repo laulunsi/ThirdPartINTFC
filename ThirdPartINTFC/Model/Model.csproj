@@ -39,14 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JH_AMBULANCEINFO.cs" />
-    <Compile Include="JH_AMBULANCEPOSITION.cs" />
-    <Compile Include="JH_AMBULANCESTATUS.cs" />
-    <Compile Include="JH_CHARGEBACK.cs" />
-    <Compile Include="JH_CHARGEBACKRESULT.cs" />
-    <Compile Include="JH_FEEDBACK.cs" />
-    <Compile Include="JH_SIGNINFO.cs" />
-    <Compile Include="JH_WORKORDER.cs" />
+    <Compile Include="Business.cs" />
+    <Compile Include="ErrMsg.cs" />
+    <Compile Include="JHBusiness\JH_AMBULANCEINFO.cs" />
+    <Compile Include="JHBusiness\JH_AMBULANCEPOSITION.cs" />
+    <Compile Include="JHBusiness\JH_AMBULANCESTATUS.cs" />
+    <Compile Include="JHBusiness\JH_CHARGEBACK.cs" />
+    <Compile Include="JHBusiness\JH_CHARGEBACKRESULT.cs" />
+    <Compile Include="JHBusiness\JH_FEEDBACK.cs" />
+    <Compile Include="JHBusiness\JH_SIGNINFO.cs" />
+    <Compile Include="JHBusiness\JH_WORKORDER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
