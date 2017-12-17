@@ -2,3 +2,9 @@ D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\bin\Debug\Model.dll
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\bin\Debug\Model.pdb
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.dll
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\bin\Debug\Model.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\bin\Debug\Model.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.pdb

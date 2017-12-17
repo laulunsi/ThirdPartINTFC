@@ -34,7 +34,7 @@
         public string Tdbh { get => _tdbh; set => _tdbh = value; }
 
         /// <summary>
-        /// 退单结果 
+        /// 退单结果
         /// 0:接受退单
         /// 1:拒绝退单
         /// </summary>
@@ -44,6 +44,7 @@
         /// 拒绝退单理由
         /// </summary>
         public string Jjtdly { get => _jjtdly; set => _jjtdly = value; }
+
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -68,6 +69,5 @@
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
-
     }
 }

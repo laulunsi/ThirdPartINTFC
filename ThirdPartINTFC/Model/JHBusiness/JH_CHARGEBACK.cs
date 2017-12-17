@@ -56,6 +56,7 @@
         /// 退单原因
         /// </summary>
         public string Tdyy { get => _tdyy; set => _tdyy = value; }
+
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -80,6 +81,5 @@
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
-
     }
 }

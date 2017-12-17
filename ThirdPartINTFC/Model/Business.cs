@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ZIT.ThirdPartINTFC.Model
 {
@@ -18,10 +16,12 @@ namespace ZIT.ThirdPartINTFC.Model
         private string _lsh;
 
         #region 构造函数
+
         public Business()
         {
             _zt = "10";
         }
+
         public Business(string zldbh)
         {
             _zldbh = zldbh;
@@ -35,8 +35,8 @@ namespace ZIT.ThirdPartINTFC.Model
             _zt = "10";
             _createTime = creatTime;
         }
-        #endregion
 
+        #endregion 构造函数
 
         /// <summary>
         /// 指令单编号
@@ -47,12 +47,12 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 记录创建时间
         /// </summary>
         public DateTime CreateTime { get => _createTime; set => _createTime = value; }
-        
+
         /// <summary>
         /// 业务处理的状态
         /// 10创建事务/读取工单信息
         /// 20签收工单  21退单
-        /// 30处置回馈  
+        /// 30处置回馈
         /// 40派车
         /// 50完成/退单反馈
         /// </summary>
@@ -67,6 +67,5 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 120调度系统流水号
         /// </summary>
         public string Lsh { get => _lsh; set => _lsh = value; }
-        
     }
 }

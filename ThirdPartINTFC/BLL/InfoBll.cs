@@ -7,6 +7,7 @@ namespace ZIT.ThirdPartINTFC.BLL
     public class InfoBll
     {
         #region 方法
+
         /// <summary>
         /// 获取当前数据库是否可以连接
         /// </summary>
@@ -98,6 +99,7 @@ namespace ZIT.ThirdPartINTFC.BLL
         {
             return InfoDal.Update_AMBULANCESTATUS(ambulancestatus);
         }
-        #endregion
+
+        #endregion 方法
     }
 }

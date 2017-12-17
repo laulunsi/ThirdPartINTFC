@@ -1,4 +1,5 @@
 ﻿#pragma warning disable 0618
+
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,22 +11,20 @@ namespace ZIT.ThirdPartINTFC.Utils
     public class OracleHelper
     {
         #region 变量
+
         /// <summary>
         /// 数据库连接字符串 "Data Source=orcl;User Id=Nj120;Password=Nj120"
         /// </summary>
         public static string DbConnectStr;
 
-        #endregion
-
-        #region 属性
+        #endregion 变量
 
 
-
-        #endregion
 
         #region 方法
 
         #region 测试
+
         /// <summary>
         /// 用于测试数据库连接是否有效
         /// </summary>
@@ -35,7 +34,7 @@ namespace ZIT.ThirdPartINTFC.Utils
             bool bln = false;
             try
             {
-                using (OracleConnection con =new OracleConnection(DbConnectStr))
+                using (OracleConnection con = new OracleConnection(DbConnectStr))
                 {
                     using (OracleCommand cmd = new OracleCommand("SELECT SYSDATE FROM DUAL", con))
                     {
@@ -55,9 +54,10 @@ namespace ZIT.ThirdPartINTFC.Utils
             return bln;
         }
 
+        #endregion 测试
 
-        #endregion
         #region 执行返回多条记录的泛型集合对象
+
         /// <summary>
         /// 执行返回多条记录的泛型集合对象
         /// </summary>
@@ -68,10 +68,10 @@ namespace ZIT.ThirdPartINTFC.Utils
         /// <returns>泛型集合对象</returns>
         public static List<T> ExecuteList<T>(string commandText, CommandType commandType, params OracleParameter[] param)
         {
-            List<T> list=new List<T>();
+            List<T> list = new List<T>();
             using (OracleConnection con = new OracleConnection(DbConnectStr))
             {
-                using (OracleCommand cmd = new OracleCommand(commandText,con))
+                using (OracleCommand cmd = new OracleCommand(commandText, con))
                 {
                     try
                     {
@@ -100,15 +100,15 @@ namespace ZIT.ThirdPartINTFC.Utils
                         con.Close();
                         throw;
                     }
-                    
                 }
-
             }
             return list;
         }
-        #endregion
+
+        #endregion 执行返回多条记录的泛型集合对象
 
         #region 执行不查询的数据库操作
+
         /// <summary>
         /// 执行不查询的数据库操作
         /// </summary>
@@ -121,7 +121,7 @@ namespace ZIT.ThirdPartINTFC.Utils
             int result;
             using (OracleConnection con = new OracleConnection(DbConnectStr))
             {
-                using (OracleCommand cmd = new OracleCommand(commandText,con))
+                using (OracleCommand cmd = new OracleCommand(commandText, con))
                 {
                     try
                     {
@@ -146,15 +146,15 @@ namespace ZIT.ThirdPartINTFC.Utils
                         con.Close();
                         throw;
                     }
-                    
                 }
-                
             }
             return result;
         }
-        #endregion
+
+        #endregion 执行不查询的数据库操作
 
         #region 执行返回一条记录的泛型对象
+
         /// <summary>
         /// 执行返回一条记录的泛型对象
         /// </summary>
@@ -167,25 +167,25 @@ namespace ZIT.ThirdPartINTFC.Utils
             try
             {
                 Type type = typeof(T);
-                obj = (T) Activator.CreateInstance(type);//从当前程序集里面通过反射的方式创建指定类型的对象 
+                obj = (T)Activator.CreateInstance(type);//从当前程序集里面通过反射的方式创建指定类型的对象
                 PropertyInfo[] propertyInfos = type.GetProperties();//获取指定类型里面的所有属性
                 foreach (var property in propertyInfos)
                 {
                     for (int i = 0; i < reader.FieldCount; i++)
                     {
                         string fieldName = reader.GetName(i);
-                        if (fieldName.ToLower()== property.Name.ToLower())
+                        if (fieldName.ToLower() == property.Name.ToLower())
                         {
                             object val = reader[fieldName];//获取记录中对应属性的值
                             if (val != null && val != DBNull.Value)
                             {
                                 if (val is decimal)
                                 {
-                                    property.SetValue(obj,Convert.ToDecimal(val));
+                                    property.SetValue(obj, Convert.ToDecimal(val));
                                 }
                                 if (val is int)
                                 {
-                                    property.SetValue(obj,Convert.ToInt32(val));
+                                    property.SetValue(obj, Convert.ToInt32(val));
                                 }
                                 if (val is DateTime)
                                 {
@@ -198,10 +198,7 @@ namespace ZIT.ThirdPartINTFC.Utils
                             }
                             break;
                         }
-                        
                     }
-                    
-                    
                 }
             }
             catch (Exception)
@@ -210,9 +207,9 @@ namespace ZIT.ThirdPartINTFC.Utils
             }
             return obj;
         }
-        #endregion
 
-        #endregion
+        #endregion 执行返回一条记录的泛型对象
 
+        #endregion 方法
     }
 }

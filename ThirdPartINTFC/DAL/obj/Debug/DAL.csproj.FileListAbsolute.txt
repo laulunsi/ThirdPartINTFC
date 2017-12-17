@@ -7,3 +7,13 @@ D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Utils.pdb
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.dll
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\DAL.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\DAL.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Model.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Utils.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Model.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\Utils.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.pdb

@@ -28,12 +28,12 @@
         private string _ext4;
 
         private string _ext5;
-        
+
         /// <summary>
         /// 指令单编号
         /// </summary>
         public string Zldbh { get => _zldbh; set => _zldbh = value; }
-        
+
         /// <summary>
         /// 报警人
         /// </summary>
@@ -58,7 +58,7 @@
         /// 报警时间
         /// </summary>
         public string Bjsj { get => _bjsj; set => _bjsj = value; }
-        
+
         /// <summary>
         /// 报警内容
         /// </summary>

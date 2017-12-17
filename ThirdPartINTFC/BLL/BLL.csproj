@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LogUtility">
+      <HintPath>..\Utils\LogUtility.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BSS\Client.cs" />
+    <Compile Include="UDP\BSSClient.cs" />
+    <Compile Include="UDP\Base\Client.cs" />
     <Compile Include="Core.cs" />
     <Compile Include="InfoBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UDP\GPSServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

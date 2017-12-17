@@ -63,6 +63,7 @@
         /// 反馈警情类别(过程反馈/结果反馈)
         /// </summary>
         public string Fkjqlb { get => _fkjqlb; set => _fkjqlb = value; }
+
         /// <summary>
         /// 冗余字段1
         /// </summary>

@@ -70,7 +70,7 @@
         /// 车载GPS状态
         /// </summary>
         public string Gpsstatus { get => _gpsstatus; set => _gpsstatus = value; }
-        
+
         /// <summary>
         /// 冗余字段1
         /// </summary>
@@ -95,6 +95,5 @@
         /// 冗余字段5
         /// </summary>
         public string Ext5 { get => _ext5; set => _ext5 = value; }
-
     }
 }

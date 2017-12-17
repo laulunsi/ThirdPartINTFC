@@ -4,3 +4,12 @@ D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ZIT.ThirdPartINTF
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.csproj.GenerateResource.Cache
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.exe
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThirdPartINTFC.exe
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThirdPartINTFC.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.csprojResolveAssemblyReference.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ZIT.ThirdPartINTFC.MainUI.MainUi.resources
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ZIT.ThirdPartINTFC.MainUI.Properties.Resources.resources
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.csproj.GenerateResource.Cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.csproj.CoreCompileInputs.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.exe
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\Debug\ThirdPartINTFC.pdb
