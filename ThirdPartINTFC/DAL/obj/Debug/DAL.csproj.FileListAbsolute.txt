@@ -18,3 +18,4 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csproj.CoreCompile
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.pdb
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\LogUtility.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\LogUtility.dll

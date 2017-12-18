@@ -1,19 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using ZIT.ThirdPartINTFC;
+﻿using System.Windows.Forms;
 using ZIT.ThirdPartINTFC.Utils;
 
 namespace ZIT.ThirdPartINTFC.UI
 {
-    public partial class frmAbout : Form
+    public partial class FrmAbout : Form
     {
-        public frmAbout()
+        public FrmAbout()
         {
             InitializeComponent();
             this.Text = "关于-" + SysParameters.SoftName;

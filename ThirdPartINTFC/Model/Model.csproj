@@ -50,6 +50,7 @@
     <Compile Include="JHBusiness\JH_SIGNINFO.cs" />
     <Compile Include="JHBusiness\JH_WORKORDER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

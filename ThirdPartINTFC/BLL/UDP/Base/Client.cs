@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using ZIT.ThirdPartINTFC.Model;
 using ZIT.ThirdPartINTFC.Utils;
 
 namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
@@ -43,6 +41,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         /// 握手消息内容
         /// </summary>
         public string HandShakeMsg;
+
         #endregion 变量
 
         #region 构造函数
@@ -56,6 +55,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         #endregion 构造函数
 
         #region 方法
+
         /// <summary>
         /// 启动
         /// </summary>
@@ -63,7 +63,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         {
             _client = new UdpClient(LocalPort);
             //非广播客户端模式
-            if (RemoteIpep !=null)
+            if (RemoteIpep != null)
             {
                 if (Ping(Convert.ToString(RemoteIpep.Address)))
                 {
@@ -85,14 +85,12 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             ThreadPool.QueueUserWorkItem(CheckHandShake);
         }
 
-
         /// <summary>
         /// 停止
         /// </summary>
         public void Stop()
         {
             _client.Close();
-            
         }
 
         /// <summary>
@@ -103,10 +101,11 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         {
             while (true)
             {
-                SendMsg(HandShakeMsg,false);
-                Thread.Sleep(1000*SysParameters.SharkHandsInterval);
+                SendMsg(HandShakeMsg, false);
+                Thread.Sleep(1000 * SysParameters.SharkHandsInterval);
             }
         }
+
         /// <summary>
         /// 检测握手
         /// </summary>
@@ -120,41 +119,44 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                     _blnConnect = false;
                     RaiseDisConnected("握手超时，已断开");
                 }
-                Thread.Sleep(1000*5);
+                Thread.Sleep(1000 * 5);
             }
         }
-        
+
         /// <summary>
         /// 接收消息
         /// </summary>
         /// <param name="state"></param>
         private void ReceiveMsg(object state)
         {
-            IPEndPoint recvipep = null;
+            IPEndPoint remoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
             while (true)
             {
                 try
                 {
                     if (_client != null)
                     {
-                        byte[] buffer = _client.Receive(ref recvipep);
+                        byte[] buffer = _client.Receive(ref remoteIpEndPoint);
                         _lastConTime = DateTime.Now;
                         if (!_blnConnect)
                         {
                             _blnConnect = true;
                             RaiseConnected();
                         }
-                        if (recvipep != null && buffer.Length > 0)
+                        if (remoteIpEndPoint != null && buffer.Length > 0)
                         {
                             string message = Encoding.ASCII.GetString(buffer);
-                            RaiseReceiveEvent(message, recvipep);
+                            if (message.IndexOf("[3000", StringComparison.Ordinal) < 0)
+                            {
+                                RaiseReceiveEvent(message, remoteIpEndPoint);
+                            }
                         }
-                        recvipep = null;
+                        remoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
                     }
                 }
                 catch (ObjectDisposedException e)
                 {
-                    RaiseDisConnected($"UdpClient 已关闭。{e.Message}" );
+                    RaiseDisConnected($"UdpClient 已关闭。{e.Message}");
                 }
                 catch (Exception ex)
                 {
@@ -171,7 +173,6 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         /// <returns></returns>
         public void SendMsg(string message, bool blnLog)
         {
-
             try
             {
                 byte[] buff = Encoding.ASCII.GetBytes(message);
@@ -187,7 +188,6 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                 RaiseDisConnected(ex.Message);
             }
         }
-
 
         /// <summary>
         /// Ping方法
@@ -208,15 +208,18 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             }
             return bln;
         }
+
         #endregion 方法
 
         #region 委托
+
         /// <summary>
         /// 连接事件
         /// </summary>
         public event ConnectedHandler Connected;
 
         public delegate void ConnectedHandler();
+
         private void RaiseConnected()
         {
             Connected?.Invoke();
@@ -228,11 +231,11 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         public event DisConnectedHandler DisConnected;
 
         public delegate void DisConnectedHandler(string info);
+
         private void RaiseDisConnected(string info)
         {
             DisConnected?.Invoke(info);
         }
-
 
         /// <summary>
         /// 收到信息事件

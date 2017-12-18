@@ -1,0 +1,4028 @@
+﻿日志时间:2017-12-18 21:40:27
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:40:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:40:47
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:40:57
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:43:33
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:43:50
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:44:00
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:44:10
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:44:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:44:30
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:44:40
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:44:50
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:45:09
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:45:32
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:37
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:45:38
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 21:48:02
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 22:23:26
+日志级别:Info
+日志位置:类[Core],方法[Start]
+日志内容:未将对象引用设置到对象的实例。
+
+日志时间:2017-12-18 22:23:51
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+
+日志时间:2017-12-18 22:37:02
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：远程主机强迫关闭了一个现有的连接。
+
+日志时间:2017-12-18 22:37:13
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+
+日志时间:2017-12-18 22:37:14
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:15
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:16
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:17
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:20
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[GSClient_DisConnected]
+日志内容:GPSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+
+日志时间:2017-12-18 22:37:22
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：UdpClient 已关闭。无法访问已释放的对象。
+对象名:“System.Net.Sockets.UdpClient”。
+

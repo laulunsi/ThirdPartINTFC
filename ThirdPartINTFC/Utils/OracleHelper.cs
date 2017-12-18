@@ -1,11 +1,11 @@
 ﻿#pragma warning disable 0618
 
+using LogUtility;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.OracleClient;
 using System.Reflection;
-using LogUtility;
 
 namespace ZIT.ThirdPartINTFC.Utils
 {
@@ -49,7 +49,7 @@ namespace ZIT.ThirdPartINTFC.Utils
             catch (Exception e)
             {
                 bln = false;
-                LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteTest"),"DBErr");
+                LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteTest"), "DBErr");
             }
             return bln;
         }
@@ -146,7 +146,6 @@ namespace ZIT.ThirdPartINTFC.Utils
                         cmd.Dispose();
                         con.Close();
                         LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteNonQuery"), "DBErr");
-
                     }
                 }
             }

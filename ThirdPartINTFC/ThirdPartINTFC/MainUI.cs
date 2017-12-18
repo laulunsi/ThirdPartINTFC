@@ -1,9 +1,10 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using System.Threading;
+﻿using LogUtility;
+using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
+using System.Threading;
+using System.Windows.Forms;
 using ZIT.ThirdPartINTFC.BLL;
 using ZIT.ThirdPartINTFC.Model;
 using ZIT.ThirdPartINTFC.Utils;
@@ -22,9 +23,11 @@ namespace ZIT.ThirdPartINTFC.UI
         /// </summary>
         public MainUI()
         {
+            LogUtility.DataLog.WriteLog(LogLevel.Info, "软件开始启动", new RunningPlace("MainUI", "Start"), "OP");
             InitializeComponent();
             this.Text = SysParameters.SoftName;
         }
+
         /// <summary>
         /// 窗体加载函数
         /// </summary>
@@ -42,7 +45,6 @@ namespace ZIT.ThirdPartINTFC.UI
             {
                 LogUtility.DataLog.WriteLog(LogUtility.LogLevel.Info, ex.Message, new LogUtility.RunningPlace("MainUI", "MainUI_Load"), "UIErr");
             }
-
         }
 
         /// <summary>
@@ -55,6 +57,7 @@ namespace ZIT.ThirdPartINTFC.UI
                 Core control = Core.GetInstance();
                 control.StatusChangedEvent += Server_StatusChangedEvent;
                 control.Start();
+                LogUtility.DataLog.WriteLog(LogLevel.Info, "软件启动完毕", new RunningPlace("MainUI", "Start"), "OP");
             }
             catch (Exception ex)
             {
@@ -76,13 +79,14 @@ namespace ZIT.ThirdPartINTFC.UI
                     case FunModule.Bs:
                         o = lblBssConnectStatus;
                         break;
+
                     case FunModule.Gs:
                         o = lblGpsConnectStatus;
                         break;
+
                     case FunModule.Db:
                         o = lblDbConnectStatus;
                         break;
-
                 }
                 (o as Label)?.BeginInvoke(new MethodInvoker(() =>
                 {
@@ -92,14 +96,17 @@ namespace ZIT.ThirdPartINTFC.UI
                             (o as Label).Text = "断开";
                             (o as Label).ForeColor = Color.Red;
                             break;
+
                         case ConStatus.Connected:
                             (o as Label).Text = "已连接";
                             (o as Label).ForeColor = Color.Green;
                             break;
+
                         case ConStatus.Login:
                             (o as Label).Text = "已登录";
                             (o as Label).ForeColor = Color.Green;
                             break;
+
                         default:
                             break;
                     }
@@ -108,7 +115,6 @@ namespace ZIT.ThirdPartINTFC.UI
             catch (Exception ex)
             {
                 LogUtility.DataLog.WriteLog(LogUtility.LogLevel.Info, ex.Message, new LogUtility.RunningPlace("MainUI", "Server_StatusChangedEvent"), "UIErr");
-
             }
         }
 
@@ -123,9 +129,9 @@ namespace ZIT.ThirdPartINTFC.UI
             {
                 if (MessageBox.Show(this, "确定要退出么？", "系统提示", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
-
                     Core.GetInstance().Stop();
                     Thread.Sleep(1000);
+                    LogUtility.DataLog.WriteLog(LogLevel.Info, "软件退出", new RunningPlace("MainUI", "Start"), "OP");
                     System.Environment.Exit(System.Environment.ExitCode);
                 }
                 else
@@ -139,7 +145,7 @@ namespace ZIT.ThirdPartINTFC.UI
             }
         }
 
-        private void menuItemViewLog_Click(object sender, EventArgs e)
+        private void MenuItemViewLog_Click(object sender, EventArgs e)
         {
             try
             {
@@ -158,7 +164,7 @@ namespace ZIT.ThirdPartINTFC.UI
             catch { }
         }
 
-        private void menuItemExitSystem_Click(object sender, EventArgs e)
+        private void MenuItemExitSystem_Click(object sender, EventArgs e)
         {
             try
             {
@@ -166,6 +172,7 @@ namespace ZIT.ThirdPartINTFC.UI
                 {
                     Core.GetInstance().Stop();
                     Thread.Sleep(1000);
+                    LogUtility.DataLog.WriteLog(LogLevel.Info, "软件退出", new RunningPlace("MainUI", "Start"), "OP");
                     System.Environment.Exit(System.Environment.ExitCode);
                 }
             }
@@ -175,15 +182,14 @@ namespace ZIT.ThirdPartINTFC.UI
             }
         }
 
-        private void menuItemAbout_Click(object sender, EventArgs e)
+        private void MenuItemAbout_Click(object sender, EventArgs e)
         {
-            frmAbout about = new frmAbout();
+            FrmAbout about = new FrmAbout();
             about.ShowDialog();
         }
 
-        private void btnTest_Click(object sender, EventArgs e)
+        private void BtnTest_Click(object sender, EventArgs e)
         {
-          
         }
     }
 }

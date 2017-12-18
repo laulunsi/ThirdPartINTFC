@@ -10,7 +10,6 @@ namespace ZIT.ThirdPartINTFC.Utils
 
             SoftName = ConfigurationManager.AppSettings["SoftName"];
 
-
             DbConnectStr = ConfigurationManager.AppSettings["DBConnectStr"];
 
             BssServerIp = ConfigurationManager.AppSettings["BSSServerIP"];
@@ -21,18 +20,22 @@ namespace ZIT.ThirdPartINTFC.Utils
             QueryInterval = short.Parse(ConfigurationManager.AppSettings["QueryInterval"]);
             LocalUnitCode = ConfigurationManager.AppSettings["LocalUnitCode"];
         }
+
         /// <summary>
         /// 软件的名称
         /// </summary>
         public static string SoftName;
+
         /// <summary>
         /// 与各服务器握手时间间隔，单位：秒
         /// </summary>
         public static int QueryInterval;// = 10
+
         /// <summary>
         /// 120业务服务器IP地址
         /// </summary>
         public static string BssServerIp;// = "192.168.0.254";
+
         /// <summary>
         /// 与120业务服务器连接的本地端口
         /// </summary>
@@ -42,10 +45,12 @@ namespace ZIT.ThirdPartINTFC.Utils
         /// 120业务服务器监听端口
         /// </summary>
         public static short BssServerPort;// = 1003;
+
         /// <summary>
         /// 本地单位编号
         /// </summary>
         public static string LocalUnitCode;// = "000000";
+
         /// <summary>
         /// 与各服务器握手时间间隔，单位：秒
         /// </summary>
@@ -55,6 +60,7 @@ namespace ZIT.ThirdPartINTFC.Utils
         /// Gps本地端口
         /// </summary>
         public static short GpsLocalPort { get; private set; }
+
         /// <summary>
         /// 数据库连接字符串
         /// </summary>

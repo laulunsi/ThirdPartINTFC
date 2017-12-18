@@ -109,14 +109,14 @@ namespace ZIT.ThirdPartINTFC.UI
             this.menuItemViewLog.Name = "menuItemViewLog";
             this.menuItemViewLog.Size = new System.Drawing.Size(139, 22);
             this.menuItemViewLog.Text = "查看日志(L)";
-            this.menuItemViewLog.Click += new System.EventHandler(this.menuItemViewLog_Click);
+            this.menuItemViewLog.Click += new System.EventHandler(this.MenuItemViewLog_Click);
             // 
             // menuItemExitSystem
             // 
             this.menuItemExitSystem.Name = "menuItemExitSystem";
             this.menuItemExitSystem.Size = new System.Drawing.Size(139, 22);
             this.menuItemExitSystem.Text = "退出系统(E)";
-            this.menuItemExitSystem.Click += new System.EventHandler(this.menuItemExitSystem_Click);
+            this.menuItemExitSystem.Click += new System.EventHandler(this.MenuItemExitSystem_Click);
             // 
             // 帮助HToolStripMenuItem
             // 
@@ -131,7 +131,7 @@ namespace ZIT.ThirdPartINTFC.UI
             this.menuItemAbout.Name = "menuItemAbout";
             this.menuItemAbout.Size = new System.Drawing.Size(116, 22);
             this.menuItemAbout.Text = "关于(A)";
-            this.menuItemAbout.Click += new System.EventHandler(this.menuItemAbout_Click);
+            this.menuItemAbout.Click += new System.EventHandler(this.MenuItemAbout_Click);
             // 
             // label1
             // 
@@ -150,7 +150,7 @@ namespace ZIT.ThirdPartINTFC.UI
             this.btnTest.TabIndex = 13;
             this.btnTest.Text = "Test";
             this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            this.btnTest.Click += new System.EventHandler(this.BtnTest_Click);
             // 
             // label2
             // 
