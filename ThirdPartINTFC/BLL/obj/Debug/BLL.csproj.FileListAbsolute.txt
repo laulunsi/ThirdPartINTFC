@@ -22,3 +22,4 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.csprojResolveAssem
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\BLL\obj\Debug\BLL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\BLL\bin\Debug\LogUtility.dll

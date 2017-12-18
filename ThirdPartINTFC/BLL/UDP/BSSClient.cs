@@ -6,61 +6,63 @@ using ZIT.ThirdPartINTFC.BLL.UDP.Base;
 
 namespace ZIT.ThirdPartINTFC.BLL.UDP
 {
-    public class BSSClient
+    public class BssClient
     {
         #region 变量
+        private MessageHandler _handler;
 
-        internal Client client = null;
+        internal Client Client = null;
 
-        public static BSSClient instance = null;
+        public static BssClient Instance = null;
 
-        private short localPort;
+        public short LocalPort;
 
-        private IPEndPoint remoteIPEP;
+        public IPEndPoint RemoteIpep;
+
+        public string HandShakeMsg;
         #endregion
 
         #region 构造方法
 
-        public BSSClient()
+        public BssClient()
         {
-            client = new Client();
-            client.ErrOccurEvent += Client_ErrOccurEvent;
-            client.ReceiveEvent += Client_ReceiveEvent;
-            client.SendEvent += Client_SendEvent;
-            client.localPort = localPort;
-            client.remoteIPEP = remoteIPEP;
-            client.Start();
+            _handler = new MessageHandler();
         }
         #endregion
 
         #region 方法
 
-        public static BSSClient GetInstance()
+        public void Start()
         {
-            if (instance == null)
+            Client = new Client();
+            Client.HandShakeMsg = HandShakeMsg;
+            Client.ReceiveEvent += Client_ReceiveEvent;
+            Client.SendEvent += Client_SendEvent;
+            Client.LocalPort = LocalPort;
+            Client.RemoteIpep = RemoteIpep;
+            Client.Start();
+
+        }
+
+        public static BssClient GetInstance()
+        {
+            if (Instance == null)
             {
-                instance = new BSSClient();
+                Instance = new BssClient();
             }
-            return instance;
+            return Instance;
+        }
+
+        public void Close()
+        {
+            Client.Stop();
         }
 
         public void SendMsg(string message)
         {
-            client.SendMsg(message);
+            Client.SendMsg(message,true);
         }
 
-        private void HandleMessage(string message)
-        {
-            try
-            {
-                
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-        }
         #endregion
 
         #region 事件
@@ -84,22 +86,8 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
         {
             //写日志处理
             LogUtility.DataLog.WriteLog(LogLevel.Info, string.Format("地址：{0}收到消息:{1}", Convert.ToString(ipep), message), new RunningPlace("BSSClient", "Client_ReceiveEvent"), "FromBssServer");
-            new Task(() => HandleMessage(message));
-
+            var task = new Task(() => _handler.HandleMessage(message));
         }
-
-        /// <summary>
-        /// 通讯中断事件
-        /// </summary>
-        /// <param name="err"></param>
-        private void Client_ErrOccurEvent(Model.ErrMsg err)
-        {
-            //写日志处理
-            LogUtility.DataLog.WriteLog(LogLevel.Info, string.Format("BSSClient报错：{0}", err.Message), new RunningPlace("BSSClient", "Client_ErrOccurEvent"), "UdpErr");
-            //显示连接中断
-        }
-
-
         #endregion
     }
 }

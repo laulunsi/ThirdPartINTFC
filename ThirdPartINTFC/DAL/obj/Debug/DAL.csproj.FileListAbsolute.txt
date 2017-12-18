@@ -17,3 +17,4 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csprojResolveAssem
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\DAL\obj\Debug\DAL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\DAL\bin\Debug\LogUtility.dll

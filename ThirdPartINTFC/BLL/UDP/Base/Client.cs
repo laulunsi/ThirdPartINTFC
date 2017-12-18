@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using ZIT.ThirdPartINTFC.Model;
+using ZIT.ThirdPartINTFC.Utils;
 
 namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
 {
@@ -13,66 +14,151 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
     {
         #region 变量
 
-        private UdpClient client;
+        /// <summary>
+        /// Udp通讯客户端
+        /// </summary>
+        private UdpClient _client;
 
-        public short localPort;
+        /// <summary>
+        /// 当前连接状态
+        /// </summary>
+        private bool _blnConnect;
 
-        public IPEndPoint remoteIPEP;
+        /// <summary>
+        /// 上一次连接时间
+        /// </summary>
+        private DateTime _lastConTime;
 
+        /// <summary>
+        /// 本地端口号
+        /// </summary>
+        public short LocalPort;
+
+        /// <summary>
+        /// 目标服务器的IP与端口号，如果是接受广播消息则为null
+        /// </summary>
+        public IPEndPoint RemoteIpep;
+
+        /// <summary>
+        /// 握手消息内容
+        /// </summary>
+        public string HandShakeMsg;
         #endregion 变量
 
         #region 构造函数
 
         public Client()
         {
-
+            _lastConTime = DateTime.MinValue;
+            _blnConnect = false;
         }
 
         #endregion 构造函数
 
         #region 方法
-
+        /// <summary>
+        /// 启动
+        /// </summary>
         public void Start()
         {
-            client = new UdpClient(localPort);
+            _client = new UdpClient(LocalPort);
             //非广播客户端模式
-            if (remoteIPEP !=null)
+            if (RemoteIpep !=null)
             {
-                if (PING(Convert.ToString(remoteIPEP.Address)))
+                if (Ping(Convert.ToString(RemoteIpep.Address)))
                 {
-                    ThreadPool.QueueUserWorkItem(new WaitCallback(ReceiveMsg));
+                    _blnConnect = true;
+                    RaiseConnected();
+                    ThreadPool.QueueUserWorkItem(ReceiveMsg);
+                    ThreadPool.QueueUserWorkItem(HandShake);
                 }
                 else
                 {
-                    RaiseErrOccurEvent(new ErrMsg() { Message = string.Format("服务器主机地址Ping失败，地址：{0}", Convert.ToString(remoteIPEP.Address)) });
+                    _blnConnect = false;
+                    RaiseDisConnected($"服务器主机地址Ping失败，地址：{Convert.ToString(RemoteIpep.Address)}");
                 }
             }
+            else
+            {
+                ThreadPool.QueueUserWorkItem(ReceiveMsg);
+            }
+            ThreadPool.QueueUserWorkItem(CheckHandShake);
         }
 
+
+        /// <summary>
+        /// 停止
+        /// </summary>
+        public void Stop()
+        {
+            _client.Close();
+            
+        }
+
+        /// <summary>
+        /// 发送握手消息
+        /// </summary>
+        /// <param name="state"></param>
+        private void HandShake(object state)
+        {
+            while (true)
+            {
+                SendMsg(HandShakeMsg,false);
+                Thread.Sleep(1000*SysParameters.SharkHandsInterval);
+            }
+        }
+        /// <summary>
+        /// 检测握手
+        /// </summary>
+        /// <param name="state"></param>
+        private void CheckHandShake(object state)
+        {
+            while (true)
+            {
+                if (_blnConnect && _lastConTime != DateTime.MinValue && (DateTime.Now - _lastConTime).TotalSeconds > 30)
+                {
+                    _blnConnect = false;
+                    RaiseDisConnected("握手超时，已断开");
+                }
+                Thread.Sleep(1000*5);
+            }
+        }
+        
+        /// <summary>
+        /// 接收消息
+        /// </summary>
+        /// <param name="state"></param>
         private void ReceiveMsg(object state)
         {
+            IPEndPoint recvipep = null;
             while (true)
             {
                 try
                 {
-                    if (client != null)
+                    if (_client != null)
                     {
-                        IPEndPoint recvipep = null;
-                        byte[] buffer = client.Receive(ref recvipep);
+                        byte[] buffer = _client.Receive(ref recvipep);
+                        _lastConTime = DateTime.Now;
+                        if (!_blnConnect)
+                        {
+                            _blnConnect = true;
+                            RaiseConnected();
+                        }
                         if (recvipep != null && buffer.Length > 0)
                         {
                             string message = Encoding.ASCII.GetString(buffer);
                             RaiseReceiveEvent(message, recvipep);
                         }
+                        recvipep = null;
                     }
                 }
-                catch (ObjectDisposedException)
+                catch (ObjectDisposedException e)
                 {
-                    RaiseErrOccurEvent(new ErrMsg() { Message = "UdpClient 已关闭。" });
+                    RaiseDisConnected($"UdpClient 已关闭。{e.Message}" );
                 }
                 catch (Exception ex)
                 {
-
+                    RaiseDisConnected(ex.Message);
                 }
             }
         }
@@ -80,39 +166,35 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         /// <summary>
         /// 发送信息
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">发送的消息内容</param>
+        /// /// <param name="blnLog">是否记录日志</param>
         /// <returns></returns>
-        public bool SendMsg(string message)
+        public void SendMsg(string message, bool blnLog)
         {
-            bool bln = false;
+
             try
             {
-
                 byte[] buff = Encoding.ASCII.GetBytes(message);
-                if (client.Send(buff, buff.Length, remoteIPEP) == buff.Length)
-                {
-                    bln = true;
-                    RaiseSendEvent(message, remoteIPEP);
-                }
+                _client.Send(buff, buff.Length, RemoteIpep);
+                if (blnLog) RaiseSendEvent(message, RemoteIpep);
             }
-            catch (ObjectDisposedException)
+            catch (ObjectDisposedException e)
             {
-                RaiseErrOccurEvent(new ErrMsg() { Message = "UdpClient 已关闭。" });
-                bln = false;
+                RaiseDisConnected($"UdpClient 已关闭。{e.Message}");
             }
             catch (Exception ex)
             {
-
+                RaiseDisConnected(ex.Message);
             }
-            return bln;
         }
+
 
         /// <summary>
         /// Ping方法
         /// </summary>
-        /// <param name="ipaddress"></param>
+        /// <param name="ipaddress">目标计算机地址</param>
         /// <returns></returns>
-        private bool PING(string ipaddress)
+        private bool Ping(string ipaddress)
         {
             bool bln = false;
             Ping ping = new Ping();
@@ -129,18 +211,28 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         #endregion 方法
 
         #region 委托
+        /// <summary>
+        /// 连接事件
+        /// </summary>
+        public event ConnectedHandler Connected;
+
+        public delegate void ConnectedHandler();
+        private void RaiseConnected()
+        {
+            Connected?.Invoke();
+        }
 
         /// <summary>
-        /// 错误信息上报
+        /// 断开事件
         /// </summary>
-        public event ErrOccurHandler ErrOccurEvent;
+        public event DisConnectedHandler DisConnected;
 
-        public delegate void ErrOccurHandler(ErrMsg err);
-
-        private void RaiseErrOccurEvent(ErrMsg err)
+        public delegate void DisConnectedHandler(string info);
+        private void RaiseDisConnected(string info)
         {
-            ErrOccurEvent?.Invoke(err);
+            DisConnected?.Invoke(info);
         }
+
 
         /// <summary>
         /// 收到信息事件

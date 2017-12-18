@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business.cs" />
-    <Compile Include="ErrMsg.cs" />
+    <Compile Include="ConStatus.cs" />
     <Compile Include="JHBusiness\JH_AMBULANCEINFO.cs" />
     <Compile Include="JHBusiness\JH_AMBULANCEPOSITION.cs" />
     <Compile Include="JHBusiness\JH_AMBULANCESTATUS.cs" />

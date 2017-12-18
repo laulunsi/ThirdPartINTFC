@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.OracleClient;
 using System.Reflection;
+using LogUtility;
 
 namespace ZIT.ThirdPartINTFC.Utils
 {
@@ -15,11 +16,9 @@ namespace ZIT.ThirdPartINTFC.Utils
         /// <summary>
         /// 数据库连接字符串 "Data Source=orcl;User Id=Nj120;Password=Nj120"
         /// </summary>
-        public static string DbConnectStr;
+        public static string DbConnectStr = SysParameters.DbConnectStr;
 
         #endregion 变量
-
-
 
         #region 方法
 
@@ -50,6 +49,7 @@ namespace ZIT.ThirdPartINTFC.Utils
             catch (Exception e)
             {
                 bln = false;
+                LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteTest"),"DBErr");
             }
             return bln;
         }
@@ -93,12 +93,12 @@ namespace ZIT.ThirdPartINTFC.Utils
                             list.Add(obj);
                         }
                     }
-                    catch (Exception)
+                    catch (Exception e)
                     {
                         cmd.Parameters.Clear();
                         cmd.Dispose();
                         con.Close();
-                        throw;
+                        LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteList"), "DBErr");
                     }
                 }
             }
@@ -139,12 +139,14 @@ namespace ZIT.ThirdPartINTFC.Utils
                         cmd.Dispose();
                         con.Close();
                     }
-                    catch (Exception)
+                    catch (Exception e)
                     {
+                        result = 0;
                         cmd.Parameters.Clear();
                         cmd.Dispose();
                         con.Close();
-                        throw;
+                        LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteNonQuery"), "DBErr");
+
                     }
                 }
             }
@@ -201,9 +203,9 @@ namespace ZIT.ThirdPartINTFC.Utils
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                // ignored
+                LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("OracleHelper", "ExecuteDataReader"), "DBErr");
             }
             return obj;
         }

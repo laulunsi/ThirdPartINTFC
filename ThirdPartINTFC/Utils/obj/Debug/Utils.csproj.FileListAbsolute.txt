@@ -8,3 +8,4 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.csprojResolveA
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\bin\Debug\LogUtility.dll

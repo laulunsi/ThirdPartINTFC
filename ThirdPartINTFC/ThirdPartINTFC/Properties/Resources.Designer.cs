@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ZIT.ThirdPartINTFC.MainUI.Properties {
+namespace ZIT.ThirdPartINTFC.UI.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ZIT.ThirdPartINTFC.MainUI.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZIT.ThirdPartINTFC.MainUI.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZIT.ThirdPartINTFC.UI.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
