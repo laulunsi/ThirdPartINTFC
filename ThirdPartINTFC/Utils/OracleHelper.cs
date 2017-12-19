@@ -37,6 +37,10 @@ namespace ZIT.ThirdPartINTFC.Utils
                 {
                     using (OracleCommand cmd = new OracleCommand("SELECT SYSDATE FROM DUAL", con))
                     {
+                        if (con.State != ConnectionState.Open)
+                        {
+                            con.Open();
+                        }
                         cmd.CommandType = CommandType.Text;
                         object obj = cmd.ExecuteOracleScalar();
                         if (obj != null && obj != DBNull.Value)

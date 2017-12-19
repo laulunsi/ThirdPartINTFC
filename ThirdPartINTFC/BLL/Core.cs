@@ -1,7 +1,11 @@
 ﻿using LogUtility;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 using System.Net;
+using System.Text;
 using ZIT.ThirdPartINTFC.BLL.DA;
 using ZIT.ThirdPartINTFC.BLL.UDP;
 using ZIT.ThirdPartINTFC.Model;
@@ -31,12 +35,7 @@ namespace ZIT.ThirdPartINTFC.BLL
         /// <summary>
         /// 业务信息集合
         /// </summary>
-        public List<Business> BussMap;
-
-        /// <summary>
-        /// 业务信息集合
-        /// </summary>
-        public List<string> VehMap;
+        public ConcurrentDictionary<string, Business> BussMap;
 
         /// <summary>
         /// Core实例
@@ -50,20 +49,33 @@ namespace ZIT.ThirdPartINTFC.BLL
         public Core()
         {
             //获取当前未完成的任务
-            //BussMap = (List<Business>)InfoBll.Get_BUSSINFO();
-            VehMap = new List<string>();
+            BussMap = new ConcurrentDictionary<string, Business>();
+            foreach (var itemBusiness in (List<Business>)InfoBll.Get_BUSSINFO())
+            {
+                BussMap.TryGetValue(itemBusiness.Zldbh, out Business bus);
+                if (bus != null)
+                {
+                    bus.VehList.Add(itemBusiness.Jhccph);
+                    BussMap.AddOrUpdate(itemBusiness.Zldbh, bus, (k, v) => v);
+                }
+                else
+                {
+                    itemBusiness.VehList.Add(itemBusiness.Jhccph);
+                    BussMap.AddOrUpdate(itemBusiness.Zldbh, itemBusiness, (k, v) => v);
+                }
+            }
             //初始化业务服务器连接
-            Bs = new BssClient
+            Bs = new BssClient()
             {
                 LocalPort = SysParameters.BssLocalPort,
                 RemoteIpep = new IPEndPoint(IPAddress.Parse(SysParameters.BssServerIp), SysParameters.BssServerPort)
             };
             Bs.HandShakeMsg =
-                $"[[3000DWBH:{SysParameters.LocalUnitCode}*#DWMC:*#ZJM:{GetZJM()}*#TLX:TFC*#TH:1*#ZBY:*#ZT:1*#LSH:*#ZBBC:*#]";
+                $"[3000DWBH:{SysParameters.LocalUnitCode}*#DWMC:*#ZJM:{GetZJM()}*#TLX:TFC*#TH:1*#ZBY:*#ZT:1*#LSH:*#ZBBC:*#]";
             Bs.Client.Connected += BSClient_Connected;
             Bs.Client.DisConnected += BSClient_DisConnected;
             //初始化GPS业务服务器连接
-            Gs = new GServer { LocalPort = SysParameters.GpsLocalPort };
+            Gs = new GServer() { LocalPort = SysParameters.GpsLocalPort };
             Gs.Client.Connected += GSClient_Connected;
             Gs.Client.DisConnected += GSClient_DisConnected;
             //初始化数据库连接
@@ -135,6 +147,41 @@ namespace ZIT.ThirdPartINTFC.BLL
                 LogUtility.DataLog.WriteLog(LogUtility.LogLevel.Info, ex.Message, new LogUtility.RunningPlace("BSSServer", "GetZJM"), "业务异常");
             }
             return hostName;
+        }
+
+        public static void test()
+        {
+            JhSigninfo jhSigninfo = new JhSigninfo() { Zldbh = "2017121900001", Qsdw = "南京市120", Qsr = "李四", Qssj = DateTime.Now.ToString(CultureInfo.InvariantCulture), Ext1 = "0" };
+            JhChargeback jhChargeback = new JhChargeback() { Zldbh = "2017121900001", Tdbh = "201712190002", Tddw = "南京市120", Tdr = "李四", Tdsj = DateTime.Now.ToString(CultureInfo.InvariantCulture), Tdyy = "假警", Ext1 = "0" };
+            JhFeedback jhFeedback = new JhFeedback()
+            {
+                Zldbh = "2017121900001",
+                Fkdbh = "201712190002",
+                Fkdw = "南京市120",
+                Fkr = "李四",
+                Fksj = DateTime.Now.ToString(CultureInfo.InvariantCulture),
+                Fknr = "这是反馈内容",
+                Fkjqlb = "过程反馈",
+                Ext1 = "0"
+            };
+            JhAmbulanceinfo jhAmbulanceinfo = new JhAmbulanceinfo() { Zldbh = "2017121900001", Jhccph = "苏A88888", Ssjg = "南京市120", Lxdh = "13333333333", Jsyxm = "赵四", Ysxm = "徐某", Ysdh = "13344444444", Gpsstatus = "1", Ext1 = "0" };
+            JhAmbulancestatus jhAmbulancestatus = new JhAmbulancestatus() { Zldbh = "2017121900001", Jhccph = "苏A88888", Status = "出车", Checi = "01", Time = DateTime.Now.ToString(CultureInfo.InvariantCulture), Ext1 = "0" };
+            LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhSigninfo>("5211", jhSigninfo), new RunningPlace("", ""), "Test");
+            LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhChargeback>("5212", jhChargeback), new RunningPlace("", ""), "Test");
+            LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhFeedback>("5214", jhFeedback), new RunningPlace("", ""), "Test");
+            LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhAmbulanceinfo>("5215", jhAmbulanceinfo), new RunningPlace("", ""), "Test");
+            LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhAmbulancestatus>("5217", jhAmbulancestatus), new RunningPlace("", ""), "Test");
+            StringBuilder st =new StringBuilder("\r\n");
+            foreach (var item in Core.GetInstance().BussMap.ToList())
+            {
+                st.Append($"指令单编号：{item.Value.Zldbh}\r\n");
+                foreach (var Veh in item.Value.VehList)
+                {
+                    st.Append($"    车牌号：{Veh}\r\n");
+                }
+                
+            }
+            LogUtility.DataLog.WriteLog(LogLevel.Info, st.ToString(), new RunningPlace("", ""), "BussMap");
         }
 
         #endregion 方法

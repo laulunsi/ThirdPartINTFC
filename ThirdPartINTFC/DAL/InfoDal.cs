@@ -1,6 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using LogUtility;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.OracleClient;
+using System.Diagnostics;
+using System.Linq;
+using System.Reflection;
 using ZIT.ThirdPartINTFC.Model;
 using ZIT.ThirdPartINTFC.Utils;
 
@@ -15,7 +19,7 @@ namespace ZIT.ThirdPartINTFC.DAL
 
         public static IList<Business> Get_BUSSINFO()
         {
-            return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1 FROM V_BUSSINFO", CommandType.Text, null);
+            return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1,CREATETIME,JHCCPH FROM V_BUSSINFO", CommandType.Text, null);
         }
 
         public static IList<JhWorkorder> Get_WORKORDER()
@@ -30,6 +34,45 @@ namespace ZIT.ThirdPartINTFC.DAL
             return OracleHelper.ExecuteList<JhChargebackresult>(
                 "SELECT JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_CHARGEBACKRESULT", CommandType.Text,
                 null);
+        }
+
+        public static bool Update_WORKORDER(string zldbh, string zt)
+        {
+            bool blnSuccess = false;
+            OracleParameter param1 = new OracleParameter("vc_ZLDBH", OracleType.VarChar) { Value = zldbh };
+            OracleParameter param2 = new OracleParameter("vc_ZT", OracleType.VarChar) { Value = zt };
+            OracleParameter param3 = new OracleParameter("nFLAG", OracleType.Number)
+            { Value = 0, Direction = ParameterDirection.Output };
+            OracleParameter param4 = new OracleParameter("errMSG", OracleType.VarChar, 4000)
+            { Value = "", Direction = ParameterDirection.Output };
+            OracleParameter[] param =
+                {param1, param2, param3,param4};
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_WORKORDER", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[2].Value.ToString(), param[3].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[2].Value.ToString()) == 1)
+            {
+                blnSuccess = true;
+            }
+            return blnSuccess;
+        }
+
+        public static bool Update_CHARGEBACKRESULT(string zldbh)
+        {
+            bool blnSuccess = false;
+            OracleParameter param1 = new OracleParameter("vc_ZLDBH", OracleType.VarChar) { Value = zldbh };
+            OracleParameter param2 = new OracleParameter("nFLAG", OracleType.Number)
+            { Value = 0, Direction = ParameterDirection.Output };
+            OracleParameter param3 = new OracleParameter("errMSG", OracleType.VarChar, 4000)
+            { Value = "", Direction = ParameterDirection.Output };
+            OracleParameter[] param =
+                {param1, param2, param3};
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_CHARGEBACKRESULT", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[1].Value.ToString(), param[2].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[1].Value.ToString()) == 1)
+            {
+                blnSuccess = true;
+            }
+            return blnSuccess;
         }
 
         public static bool Update_SIGNINFO(JhSigninfo obj)
@@ -50,8 +93,9 @@ namespace ZIT.ThirdPartINTFC.DAL
             { Value = "", Direction = ParameterDirection.Output };
             OracleParameter[] param =
                 {param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11};
-            int rows = OracleHelper.ExecuteNonQuery("", CommandType.StoredProcedure, param);
-            if (rows > 0)
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_SIGNINFO", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[9].Value.ToString(), param[10].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[9].Value.ToString()) == 1)
             {
                 blnSuccess = true;
             }
@@ -81,8 +125,9 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13
             };
-            int rows = OracleHelper.ExecuteNonQuery("", CommandType.StoredProcedure, param);
-            if (rows > 0)
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_CHARGEBACK", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[11].Value.ToString(), param[12].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[11].Value.ToString()) == 1)
             {
                 blnSuccess = true;
             }
@@ -113,8 +158,9 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13, param14
             };
-            int rows = OracleHelper.ExecuteNonQuery("", CommandType.StoredProcedure, param);
-            if (rows > 0)
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_FEEDBACK", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[12].Value.ToString(), param[13].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[12].Value.ToString()) == 1)
             {
                 blnSuccess = true;
             }
@@ -146,8 +192,9 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13, param14, param15
             };
-            int rows = OracleHelper.ExecuteNonQuery("", CommandType.StoredProcedure, param);
-            if (rows > 0)
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_AMBULANCEINFO", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[13].Value.ToString(), param[14].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[13].Value.ToString()) == 1)
             {
                 blnSuccess = true;
             }
@@ -175,8 +222,9 @@ namespace ZIT.ThirdPartINTFC.DAL
             {
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12
             };
-            int rows = OracleHelper.ExecuteNonQuery("", CommandType.StoredProcedure, param);
-            if (rows > 0)
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_AMBULANCEPOSITION", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[10].Value.ToString(), param[11].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[10].Value.ToString()) == 1)
             {
                 blnSuccess = true;
             }
@@ -206,12 +254,35 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13
             };
-            int rows = OracleHelper.ExecuteNonQuery("", CommandType.StoredProcedure, param);
-            if (rows > 0)
+            int rows = OracleHelper.ExecuteNonQuery("SP_Update_AMBULANCESTATUS", CommandType.StoredProcedure, param);
+            WriteDbExecuteLog(param[11].Value.ToString(), param[12].Value.ToString(), GetMethodName());
+            if (rows > 0 && int.Parse(param[11].Value.ToString()) == 1)
             {
                 blnSuccess = true;
             }
             return blnSuccess;
+        }
+
+        private static void WriteDbExecuteLog(string flag, string errMsg, string fnName)
+        {
+            if (int.Parse(flag) == 0)
+            {
+                LogUtility.DataLog.WriteLog(LogLevel.Info, errMsg, new RunningPlace("InfoDAL", fnName), "DbErr");
+            }
+        }
+
+        public static string GetMethodName()
+        {
+            var method = new StackFrame(1).GetMethod(); // 这里忽略1层堆栈，也就忽略了当前方法GetMethodName，这样拿到的就正好是外部调用GetMethodName的方法信息
+            var property = (
+            from p in method.DeclaringType.GetProperties(
+            BindingFlags.Instance |
+            BindingFlags.Static |
+            BindingFlags.Public |
+            BindingFlags.NonPublic)
+            where p.GetGetMethod(true) == method || p.GetSetMethod(true) == method
+            select p).FirstOrDefault();
+            return property == null ? method.Name : property.Name;
         }
     }
 }

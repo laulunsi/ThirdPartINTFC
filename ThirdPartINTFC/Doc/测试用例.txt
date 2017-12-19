@@ -1,0 +1,3 @@
+1.工单插入
+insert into jh_workorder(zldbh,bjr,bajnr,bjsj,lxdh,sfdz,xb,ext1)
+values ('2017121900001','张三','车祸','20171219 12:00:01','15255515151','南京市体育广场','男','0')

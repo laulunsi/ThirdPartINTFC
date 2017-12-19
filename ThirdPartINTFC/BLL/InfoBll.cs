@@ -41,6 +41,26 @@ namespace ZIT.ThirdPartINTFC.BLL
         }
 
         /// <summary>
+        /// 工单信息已读
+        /// </summary>
+        /// <param name="zldbh"></param>
+        /// <returns></returns>
+        public static bool Update_WORKORDER(string zldbh, string zt)
+        {
+            return InfoDal.Update_WORKORDER(zldbh, zt);
+        }
+
+        /// <summary>
+        /// 退单反馈意见已读
+        /// </summary>
+        /// <param name="zldbh"></param>
+        /// <returns></returns>
+        public static bool Update_CHARGEBACKRESULT(string zldbh)
+        {
+            return InfoDal.Update_CHARGEBACKRESULT(zldbh);
+        }
+
+        /// <summary>
         /// 更新或插入工单签收信息
         /// </summary>
         /// <param name="signinfo"></param>

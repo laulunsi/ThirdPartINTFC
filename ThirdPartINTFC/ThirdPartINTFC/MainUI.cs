@@ -190,6 +190,7 @@ namespace ZIT.ThirdPartINTFC.UI
 
         private void BtnTest_Click(object sender, EventArgs e)
         {
+            Core.test();
         }
     }
 }

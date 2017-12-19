@@ -42,9 +42,9 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
             Client.Stop();
         }
 
-        public void SendMsg(string message)
+        public bool SendMsg(string message)
         {
-            Client.SendMsg(message, true);
+            return Client.SendMsg(message, true);
         }
 
         #endregion 方法
@@ -60,7 +60,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
         {
             //写日志处理
             LogUtility.DataLog.WriteLog(LogLevel.Info, string.Format("地址：{0}收到消息:{1}", Convert.ToString(ipep), message), new RunningPlace("GServer", "Client_ReceiveEvent"), "FromBssServer");
-            var task = new Task(() => _handler.HandleMessage(message));
+            Task.Factory.StartNew(() => _handler.HandleMessage(message));
         }
 
         #endregion 事件

@@ -67,8 +67,8 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             {
                 if (Ping(Convert.ToString(RemoteIpep.Address)))
                 {
-                    _blnConnect = true;
-                    RaiseConnected();
+                    //_blnConnect = true;
+                    //RaiseConnected();
                     ThreadPool.QueueUserWorkItem(ReceiveMsg);
                     ThreadPool.QueueUserWorkItem(HandShake);
                 }
@@ -114,7 +114,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         {
             while (true)
             {
-                if (_blnConnect && _lastConTime != DateTime.MinValue && (DateTime.Now - _lastConTime).TotalSeconds > 30)
+                if (_blnConnect && (DateTime.Now - _lastConTime).TotalSeconds > 30)
                 {
                     _blnConnect = false;
                     RaiseDisConnected("握手超时，已断开");
@@ -145,7 +145,8 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                         }
                         if (remoteIpEndPoint != null && buffer.Length > 0)
                         {
-                            string message = Encoding.ASCII.GetString(buffer);
+                            string message = Encoding.Default.GetString(buffer);
+
                             if (message.IndexOf("[3000", StringComparison.Ordinal) < 0)
                             {
                                 RaiseReceiveEvent(message, remoteIpEndPoint);
@@ -171,22 +172,26 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         /// <param name="message">发送的消息内容</param>
         /// /// <param name="blnLog">是否记录日志</param>
         /// <returns></returns>
-        public void SendMsg(string message, bool blnLog)
+        public bool SendMsg(string message, bool blnLog)
         {
+            bool blnSend = false;
             try
             {
-                byte[] buff = Encoding.ASCII.GetBytes(message);
-                _client.Send(buff, buff.Length, RemoteIpep);
+                byte[] buff = Encoding.Default.GetBytes(message);
+                if (_client.Send(buff, buff.Length, RemoteIpep) == buff.Length) blnSend = true;
                 if (blnLog) RaiseSendEvent(message, RemoteIpep);
             }
             catch (ObjectDisposedException e)
             {
+                blnSend = false;
                 RaiseDisConnected($"UdpClient 已关闭。{e.Message}");
             }
             catch (Exception ex)
             {
+                blnSend = false;
                 RaiseDisConnected(ex.Message);
             }
+            return blnSend;
         }
 
         /// <summary>

@@ -13,13 +13,15 @@ namespace ZIT.ThirdPartINTFC.Model
 
         private List<string> _vehList;
 
-        private string _lsh;
+        private string _jhccph;
+        //private string _lsh;
 
         #region 构造函数
 
         public Business()
         {
             _zt = "10";
+            VehList = new List<string>();
         }
 
         public Business(string zldbh)
@@ -27,6 +29,7 @@ namespace ZIT.ThirdPartINTFC.Model
             _zldbh = zldbh;
             _zt = "10";
             _createTime = DateTime.Now;
+            VehList = new List<string>();
         }
 
         public Business(string zldbh, DateTime creatTime)
@@ -34,6 +37,7 @@ namespace ZIT.ThirdPartINTFC.Model
             _zldbh = zldbh;
             _zt = "10";
             _createTime = creatTime;
+            VehList = new List<string>();
         }
 
         #endregion 构造函数
@@ -63,9 +67,11 @@ namespace ZIT.ThirdPartINTFC.Model
         /// </summary>
         public List<string> VehList { get => _vehList; set => _vehList = value; }
 
-        /// <summary>
-        /// 120调度系统流水号
-        /// </summary>
-        public string Lsh { get => _lsh; set => _lsh = value; }
+        public string Jhccph { get => _jhccph; set => _jhccph = value; }
+
+        ///// <summary>
+        ///// 120调度系统流水号
+        ///// </summary>
+        //public string Lsh { get => _lsh; set => _lsh = value; }
     }
 }

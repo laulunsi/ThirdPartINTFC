@@ -18,3 +18,22 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThirdPa
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThirdPartINTFC.csproj.CoreCompileInputs.cache
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThridPartINTFC.exe
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThridPartINTFC.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThridPartINTFC.exe.config
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThridPartINTFC.exe
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\ThridPartINTFC.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\BLL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\LogUtility.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\Model.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\Utils.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\DAL.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\BLL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\Model.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\Utils.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\bin\Debug\DAL.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThirdPartINTFC.csprojResolveAssemblyReference.cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ZIT.ThirdPartINTFC.UI.FrmAbout.resources
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ZIT.ThirdPartINTFC.UI.MainUI.resources
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ZIT.ThirdPartINTFC.UI.Properties.Resources.resources
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThirdPartINTFC.csproj.GenerateResource.Cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThridPartINTFC.exe
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\ThirdPartINTFC\obj\x86\Debug\ThridPartINTFC.pdb
