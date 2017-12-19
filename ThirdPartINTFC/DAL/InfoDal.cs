@@ -19,20 +19,27 @@ namespace ZIT.ThirdPartINTFC.DAL
 
         public static IList<Business> Get_BUSSINFO()
         {
-            return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1,CREATETIME,JHCCPH FROM V_BUSSINFO", CommandType.Text, null);
+            //return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1,CREATETIME,JHCCPH FROM V_BUSSINFO", CommandType.Text, null);
+            return OracleHelper.ExecuteList<Business>("select A.ZLDBH,A.EXT1,A.CREATETIME,B.JHCCPH from jh_workorder A,Jh_Ambulanceinfo B where A.EXT1<'50' and (sysdate - A.createTime)< 1and B.ZLDBH = A.ZLDBH", CommandType.Text, null);
         }
 
         public static IList<JhWorkorder> Get_WORKORDER()
         {
+            //return OracleHelper.ExecuteList<JhWorkorder>(
+            //    "SELECT BAJNR,BJR,BJSJ,LXDH,SFDZ,XB,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_WORKORDER", CommandType.Text,
+            //    null);
             return OracleHelper.ExecuteList<JhWorkorder>(
-                "SELECT BAJNR,BJR,BJSJ,LXDH,SFDZ,XB,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_WORKORDER", CommandType.Text,
+                "select BAJNR,BJR,BJSJ,LXDH,SFDZ,XB,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5,CREATETIME from jh_workorder where Ext1='0' and (sysdate - createTime)<1", CommandType.Text,
                 null);
         }
 
         public static IList<JhChargebackresult> Get_CHARGEBACKRESULT()
         {
+            //return OracleHelper.ExecuteList<JhChargebackresult>(
+            //    "SELECT JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_CHARGEBACKRESULT", CommandType.Text,
+            //    null);
             return OracleHelper.ExecuteList<JhChargebackresult>(
-                "SELECT JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_CHARGEBACKRESULT", CommandType.Text,
+                "select JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5,CREATETIME from JH_CHARGEBACKRESULT where Ext1='0' and (sysdate - createTime)<1", CommandType.Text,
                 null);
         }
 
@@ -47,7 +54,7 @@ namespace ZIT.ThirdPartINTFC.DAL
             { Value = "", Direction = ParameterDirection.Output };
             OracleParameter[] param =
                 {param1, param2, param3,param4};
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_WORKORDER", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_WORKORDER", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[2].Value.ToString(), param[3].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[2].Value.ToString()) == 1)
             {
@@ -66,7 +73,7 @@ namespace ZIT.ThirdPartINTFC.DAL
             { Value = "", Direction = ParameterDirection.Output };
             OracleParameter[] param =
                 {param1, param2, param3};
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_CHARGEBACKRESULT", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_CHARGEBACKRESULT", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[1].Value.ToString(), param[2].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[1].Value.ToString()) == 1)
             {
@@ -93,7 +100,7 @@ namespace ZIT.ThirdPartINTFC.DAL
             { Value = "", Direction = ParameterDirection.Output };
             OracleParameter[] param =
                 {param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11};
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_SIGNINFO", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_SIGNINFO", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[9].Value.ToString(), param[10].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[9].Value.ToString()) == 1)
             {
@@ -125,7 +132,7 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13
             };
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_CHARGEBACK", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_CHARGEBACK", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[11].Value.ToString(), param[12].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[11].Value.ToString()) == 1)
             {
@@ -158,7 +165,7 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13, param14
             };
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_FEEDBACK", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_FEEDBACK", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[12].Value.ToString(), param[13].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[12].Value.ToString()) == 1)
             {
@@ -192,7 +199,7 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13, param14, param15
             };
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_AMBULANCEINFO", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_AMBULANCEINFO", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[13].Value.ToString(), param[14].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[13].Value.ToString()) == 1)
             {
@@ -222,7 +229,7 @@ namespace ZIT.ThirdPartINTFC.DAL
             {
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12
             };
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_AMBULANCEPOSITION", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_AMBULANCEPOSITION", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[10].Value.ToString(), param[11].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[10].Value.ToString()) == 1)
             {
@@ -254,7 +261,7 @@ namespace ZIT.ThirdPartINTFC.DAL
                 param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12,
                 param13
             };
-            int rows = OracleHelper.ExecuteNonQuery("SP_Update_AMBULANCESTATUS", CommandType.StoredProcedure, param);
+            int rows = OracleHelper.ExecuteNonQuery("ZIT_ITFC.SP_Update_AMBULANCESTATUS", CommandType.StoredProcedure, param);
             WriteDbExecuteLog(param[11].Value.ToString(), param[12].Value.ToString(), GetMethodName());
             if (rows > 0 && int.Parse(param[11].Value.ToString()) == 1)
             {

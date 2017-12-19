@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Net;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using ZIT.ThirdPartINTFC.BLL.DA;
 using ZIT.ThirdPartINTFC.BLL.UDP;
@@ -40,7 +41,7 @@ namespace ZIT.ThirdPartINTFC.BLL
         /// <summary>
         /// Core实例
         /// </summary>
-        public static Core Instance = null;
+        private static Core Instance = null;
 
         #endregion 变量
 
@@ -56,12 +57,12 @@ namespace ZIT.ThirdPartINTFC.BLL
                 if (bus != null)
                 {
                     bus.VehList.Add(itemBusiness.Jhccph);
-                    BussMap.AddOrUpdate(itemBusiness.Zldbh, bus, (k, v) => v);
+                    BussMap.AddOrUpdate(itemBusiness.Zldbh, bus, (k, v) => bus);
                 }
                 else
                 {
                     itemBusiness.VehList.Add(itemBusiness.Jhccph);
-                    BussMap.AddOrUpdate(itemBusiness.Zldbh, itemBusiness, (k, v) => v);
+                    BussMap.AddOrUpdate(itemBusiness.Zldbh, itemBusiness, (k, v) => itemBusiness);
                 }
             }
             //初始化业务服务器连接

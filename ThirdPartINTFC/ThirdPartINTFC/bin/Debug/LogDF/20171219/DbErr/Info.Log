@@ -1,5 +1,10 @@
-﻿日志时间:2017-12-19 15:26:58
+﻿日志时间:2017-12-19 21:16:26
 日志级别:Info
-日志位置:类[InfoDAL],方法[Update_SIGNINFO]
-日志内容:2017-12-19 15:26:27 失败，错误代码2017121900001ORA-01403: 未找到任何数据
+日志位置:类[OracleHelper],方法[ExecuteList]
+日志内容:System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+
+日志时间:2017-12-19 21:16:27
+日志级别:Info
+日志位置:类[OracleHelper],方法[ExecuteTest]
+日志内容:System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
 
