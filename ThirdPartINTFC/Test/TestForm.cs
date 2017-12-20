@@ -214,7 +214,31 @@ namespace Test
             {
             }
         }
-
+        private void btnFK_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                JhFeedback jh = new JhFeedback()
+                {
+                    Zldbh = txtZLDBH.Text,
+                    Fkdbh = "120" + txtZLDBH.Text,
+                    Fkdw = "南京急救指挥中心",
+                    Fkr = "张三",
+                    Fksj = DateTime.Now.ToString(CultureInfo.InvariantCulture),
+                    Fknr = txtFK.Text,
+                    Fkjqlb = "过程反馈",
+                    Ext1 = "0"
+                };
+                Client.SendMsg(StringHelper.CombinMsg<JhFeedback>("5214", jh), true);
+                btnFK.Enabled = false;
+                btnPC.Enabled = true;
+                cmbCL.SelectedIndex = 0;
+                MessageBox.Show("反馈成功");
+            }
+            catch (Exception ex)
+            {
+            }
+        }
         private void btnPC_Click(object sender, EventArgs e)
         {
             try
@@ -241,31 +265,8 @@ namespace Test
             }
         }
 
-        private void btnFK_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                JhFeedback jh = new JhFeedback()
-                {
-                    Zldbh = txtZLDBH.Text,
-                    Fkdbh = "120" + txtZLDBH.Text,
-                    Fkdw = "南京急救指挥中心",
-                    Fkr = "张三",
-                    Fksj = DateTime.Now.ToString(CultureInfo.InvariantCulture),
-                    Fknr = txtFK.Text,
-                    Fkjqlb = "过程反馈",
-                    Ext1 = "0"
-                };
-                Client.SendMsg(StringHelper.CombinMsg<JhFeedback>("5214", jh), true);
-                btnFK.Enabled = false;
-                btnPC.Enabled = true;
-                cmbCL.SelectedIndex = 0;
-                MessageBox.Show("反馈成功");
-            }
-            catch (Exception ex)
-            {
-            }
-        }
+        
+   
 
         private void Client_SendEvent(string message, System.Net.IPEndPoint ipep)
         {
@@ -414,6 +415,10 @@ namespace Test
                 blnDo = false;
                 SendStatusInfo(btnRWZZ.Text);
                 btnRWZZ.Enabled = false;
+                btnSDYY.Enabled = false;
+                btnBRSC.Enabled = false;
+                btnRWWC.Enabled = false;
+                btnDDXC.Enabled = false;
                 MessageBox.Show("任务中止成功");
             }
             catch (Exception ex)
