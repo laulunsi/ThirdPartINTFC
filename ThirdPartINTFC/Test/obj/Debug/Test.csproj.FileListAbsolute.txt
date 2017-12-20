@@ -12,3 +12,18 @@ D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.TestForm.resources
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\LogUtility.dll
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Utils.dll
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Utils.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Test.exe.config
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Test.exe
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Test.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\LogUtility.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Model.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Utils.dll
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Model.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Utils.pdb
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.TestForm.resources
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.Properties.Resources.resources
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.exe
+F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.pdb
