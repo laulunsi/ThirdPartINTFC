@@ -1,3 +1,6 @@
 1.工单插入
 insert into jh_workorder(zldbh,bjr,bajnr,bjsj,lxdh,sfdz,xb,ext1)
-values ('2017121900001','张三','车祸','20171219 12:00:01','15255515151','南京市体育广场','男','0')
+values ('2017122000008','zhasna','车祸','20171220 17:38:01','15255515151','南京市体育广场','男','0')
+2.退单反馈
+insert into jh_chargebackresult(zldbh,tdjg,jjtdly,tdbh,ext1)
+values ('2017122000005','0','','1202017122000005','0');

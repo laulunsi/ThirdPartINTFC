@@ -93,18 +93,18 @@ namespace ZIT.ThirdPartINTFC.UI
                     switch (status.Status)
                     {
                         case ConStatus.DisConnected:
-                            (o as Label).Text = "断开";
-                            (o as Label).ForeColor = Color.Red;
+                            ((Label) o).Text = "断开";
+                            ((Label) o).ForeColor = Color.Red;
                             break;
 
                         case ConStatus.Connected:
-                            (o as Label).Text = "已连接";
-                            (o as Label).ForeColor = Color.Green;
+                            ((Label) o).Text = "已连接";
+                            ((Label) o).ForeColor = Color.Green;
                             break;
 
                         case ConStatus.Login:
-                            (o as Label).Text = "已登录";
-                            (o as Label).ForeColor = Color.Green;
+                            ((Label) o).Text = "已登录";
+                            ((Label) o).ForeColor = Color.Green;
                             break;
 
                         default:

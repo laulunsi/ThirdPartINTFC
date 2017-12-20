@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Net;
-using System.Runtime.Remoting.Messaging;
 using System.Text;
+using System.Threading;
 using ZIT.ThirdPartINTFC.BLL.DA;
 using ZIT.ThirdPartINTFC.BLL.UDP;
 using ZIT.ThirdPartINTFC.Model;
@@ -41,7 +41,9 @@ namespace ZIT.ThirdPartINTFC.BLL
         /// <summary>
         /// Core实例
         /// </summary>
-        private static Core Instance = null;
+        private static Core _instance = null;
+
+        public static bool Flag;
 
         #endregion 变量
 
@@ -50,21 +52,7 @@ namespace ZIT.ThirdPartINTFC.BLL
         public Core()
         {
             //获取当前未完成的任务
-            BussMap = new ConcurrentDictionary<string, Business>();
-            foreach (var itemBusiness in (List<Business>)InfoBll.Get_BUSSINFO())
-            {
-                BussMap.TryGetValue(itemBusiness.Zldbh, out Business bus);
-                if (bus != null)
-                {
-                    bus.VehList.Add(itemBusiness.Jhccph);
-                    BussMap.AddOrUpdate(itemBusiness.Zldbh, bus, (k, v) => bus);
-                }
-                else
-                {
-                    itemBusiness.VehList.Add(itemBusiness.Jhccph);
-                    BussMap.AddOrUpdate(itemBusiness.Zldbh, itemBusiness, (k, v) => itemBusiness);
-                }
-            }
+            GetBussMap();
             //初始化业务服务器连接
             Bs = new BssClient()
             {
@@ -95,11 +83,11 @@ namespace ZIT.ThirdPartINTFC.BLL
         /// <returns></returns>
         public static Core GetInstance()
         {
-            if (Instance == null)
+            if (_instance == null)
             {
-                Instance = new Core();
+                _instance = new Core();
             }
-            return Instance;
+            return _instance;
         }
 
         /// <summary>
@@ -109,13 +97,24 @@ namespace ZIT.ThirdPartINTFC.BLL
         {
             try
             {
+                Flag = true;
                 Bs.Start();
                 Gs.Start();
                 DA.Start();
+                ThreadPool.QueueUserWorkItem(CheckBussMap_Timeout);
             }
             catch (Exception e)
             {
                 LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("Core", "Start"), "UdpErr");
+            }
+        }
+
+        private void CheckBussMap_Timeout(object state)
+        {
+            while (Flag)
+            {
+                BussMap = new ConcurrentDictionary<string, Business>(BussMap.Where(p => (DateTime.Now - p.Value.CreateTime).TotalHours < 24).ToDictionary(key => key.Key, business => business.Value));
+                Thread.Sleep(1000 * 600);
             }
         }
 
@@ -129,6 +128,28 @@ namespace ZIT.ThirdPartINTFC.BLL
             catch (Exception e)
             {
                 LogUtility.DataLog.WriteLog(LogLevel.Info, e.Message, new RunningPlace("Core", "Start"), "UdpErr");
+            }
+        }
+
+        /// <summary>
+        /// 获取业务信息
+        /// </summary>
+        private void GetBussMap()
+        {
+            BussMap = new ConcurrentDictionary<string, Business>();
+            foreach (var itemBusiness in (List<Business>)InfoBll.Get_BUSSINFO())
+            {
+                BussMap.TryGetValue(itemBusiness.Zldbh, out Business bus);
+                if (bus != null)
+                {
+                    bus.VehList.Add(itemBusiness.Jhccph);
+                    BussMap.AddOrUpdate(itemBusiness.Zldbh, bus, (k, v) => bus);
+                }
+                else
+                {
+                    itemBusiness.VehList.Add(itemBusiness.Jhccph);
+                    BussMap.AddOrUpdate(itemBusiness.Zldbh, itemBusiness, (k, v) => itemBusiness);
+                }
             }
         }
 
@@ -172,7 +193,7 @@ namespace ZIT.ThirdPartINTFC.BLL
             LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhFeedback>("5214", jhFeedback), new RunningPlace("", ""), "Test");
             LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhAmbulanceinfo>("5215", jhAmbulanceinfo), new RunningPlace("", ""), "Test");
             LogUtility.DataLog.WriteLog(LogLevel.Info, StringHelper.CombinMsg<JhAmbulancestatus>("5217", jhAmbulancestatus), new RunningPlace("", ""), "Test");
-            StringBuilder st =new StringBuilder("\r\n");
+            StringBuilder st = new StringBuilder("\r\n");
             foreach (var item in Core.GetInstance().BussMap.ToList())
             {
                 st.Append($"指令单编号：{item.Value.Zldbh}\r\n");
@@ -180,7 +201,6 @@ namespace ZIT.ThirdPartINTFC.BLL
                 {
                     st.Append($"    车牌号：{Veh}\r\n");
                 }
-                
             }
             LogUtility.DataLog.WriteLog(LogLevel.Info, st.ToString(), new RunningPlace("", ""), "BussMap");
         }

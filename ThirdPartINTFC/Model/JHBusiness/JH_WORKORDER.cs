@@ -17,7 +17,7 @@
 
         private string _bjsj;
 
-        private string _bjnr;
+        private string _bajnr;
 
         private string _ext1;
 
@@ -62,7 +62,7 @@
         /// <summary>
         /// 报警内容
         /// </summary>
-        public string Bjnr { get => _bjnr; set => _bjnr = value; }
+        public string Bajnr { get => _bajnr; set => _bajnr = value; }
 
         /// <summary>
         /// 冗余字段1

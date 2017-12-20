@@ -38,7 +38,7 @@ namespace ZIT.ThirdPartINTFC.BLL.DA
 
         private void ConTest(object state)
         {
-            while (true)
+            while (Core.Flag)
             {
                 if (InfoBll.ConnectTest())
                 {

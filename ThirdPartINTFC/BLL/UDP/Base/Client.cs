@@ -99,7 +99,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         /// <param name="state"></param>
         private void HandShake(object state)
         {
-            while (true)
+            while (Core.Flag)
             {
                 SendMsg(HandShakeMsg, false);
                 Thread.Sleep(1000 * SysParameters.SharkHandsInterval);
@@ -112,7 +112,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         /// <param name="state"></param>
         private void CheckHandShake(object state)
         {
-            while (true)
+            while (Core.Flag)
             {
                 if (_blnConnect && (DateTime.Now - _lastConTime).TotalSeconds > 30)
                 {
@@ -130,7 +130,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         private void ReceiveMsg(object state)
         {
             IPEndPoint remoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
-            while (true)
+            while (Core.Flag)
             {
                 try
                 {

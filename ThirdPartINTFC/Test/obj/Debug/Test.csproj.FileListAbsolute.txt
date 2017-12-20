@@ -1,0 +1,14 @@
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Test.exe.config
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Test.exe
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Test.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.exe
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Model.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Model.pdb
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\obj\Debug\Test.TestForm.resources
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\LogUtility.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Utils.dll
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Test\bin\Debug\Utils.pdb
