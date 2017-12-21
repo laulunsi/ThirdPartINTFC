@@ -90,12 +90,14 @@ namespace ZIT.ThirdPartINTFC.Utils
                         }
                         OracleDataReader reader = cmd.ExecuteReader();
                         cmd.Parameters.Clear();
-                        cmd.Dispose();
+
                         while (reader.Read())
                         {
                             T obj = ExecuteDataReader<T>(reader);
                             list.Add(obj);
                         }
+                        reader.Close();
+                        cmd.Dispose();
                     }
                     catch (Exception e)
                     {
