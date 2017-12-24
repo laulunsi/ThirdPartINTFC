@@ -8,3 +8,4 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.csproj.CoreCom
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.pdb
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
