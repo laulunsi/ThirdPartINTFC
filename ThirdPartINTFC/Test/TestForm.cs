@@ -176,7 +176,7 @@ namespace Test
                     Zldbh = txtZLDBH.Text,
                     Qsdw = "南京急救指挥中心",
                     Qsr = "张三",
-                    Qssj = DateTime.Now.ToString(),
+                    Qssj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     Ext1 = "0"
                 };
                 Client.SendMsg(StringHelper.CombinMsg<JhSigninfo>("5211", jh), true);
@@ -199,7 +199,7 @@ namespace Test
                     Zldbh = txtZLDBH.Text,
                     Tddw = "南京急救指挥中心",
                     Tdr = "张三",
-                    Tdsj = DateTime.Now.ToString(),
+                    Tdsj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     Tdyy = txtTDYY.Text,
                     Tdbh = "120" + txtZLDBH.Text,
                     Ext1 = "0"
@@ -224,7 +224,7 @@ namespace Test
                     Fkdbh = "120" + txtZLDBH.Text,
                     Fkdw = "南京急救指挥中心",
                     Fkr = "张三",
-                    Fksj = DateTime.Now.ToString(CultureInfo.InvariantCulture),
+                    Fksj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     Fknr = txtFK.Text,
                     Fkjqlb = "过程反馈",
                     Ext1 = "0"
@@ -345,7 +345,7 @@ namespace Test
                     Xzb = x.ToString(),
                     Yzb = y.ToString(),
                     Ext1 = "0",
-                    Time = DateTime.Now.ToString(),
+                    Time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                 };
                 Client.SendMsg(StringHelper.CombinMsg<JhAmbulanceposition>("5216", jh), true);
             }
@@ -434,7 +434,7 @@ namespace Test
                 Jhccph = cphDictionary[int.Parse(cmbCL.Text)],
                 Status = text,
                 Checi = "01",
-                Time = DateTime.Now.ToString(CultureInfo.InvariantCulture),
+                Time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                 Ext1 = "0"
             };
             Client.SendMsg(StringHelper.CombinMsg<JhAmbulancestatus>("5217", jhAmbulancestatus), true);

@@ -47,8 +47,6 @@ namespace ZIT.ThirdPartINTFC.Utils
                         {
                             bln = true;
                         }
-                        cmd.Dispose();
-                        con.Close();
                     }
                 }
             }
@@ -92,13 +90,14 @@ namespace ZIT.ThirdPartINTFC.Utils
                         }
                         OracleDataReader reader = cmd.ExecuteReader();
                         cmd.Parameters.Clear();
+
                         while (reader.Read())
                         {
                             T obj = ExecuteDataReader<T>(reader);
                             list.Add(obj);
                         }
+                        reader.Close();
                         cmd.Dispose();
-                        con.Close();
                     }
                     catch (Exception e)
                     {
@@ -191,15 +190,15 @@ namespace ZIT.ThirdPartINTFC.Utils
                                 {
                                     property.SetValue(obj, Convert.ToDecimal(val));
                                 }
-                                if (val is int)
+                                else if (val is int)
                                 {
                                     property.SetValue(obj, Convert.ToInt32(val));
                                 }
-                                if (val is DateTime)
+                                else if (val is DateTime)
                                 {
                                     property.SetValue(obj, Convert.ToDateTime(val));
                                 }
-                                if (val is string)
+                                else if (val is string)
                                 {
                                     property.SetValue(obj, Convert.ToString(val));
                                 }
