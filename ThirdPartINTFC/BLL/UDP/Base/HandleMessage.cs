@@ -113,6 +113,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                 if (bus != null)
                 {
                     bus.Zt = "30";
+                    bus.Lsh = obj.Fkdbh;
                     Core.GetInstance().BussMap.TryUpdate(obj.Zldbh, bus, bus);
                     InfoBll.Update_WORKORDER(obj.Zldbh, "30");
                 }
@@ -178,6 +179,8 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                     bus.VehList.RemoveAll(p => p == obj.Jhccph);
                     if (bus.VehList.Count == 0)
                     {
+                        JhFeedback jhFeedback = new JhFeedback() { Zldbh = obj.Zldbh, Fkr = "", Fkdbh = Core.GetInstance().BussMap.ContainsKey(obj.Zldbh) ? Core.GetInstance().BussMap[obj.Zldbh].Lsh : "", Fksj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Fknr = obj.Status, Fkdw = "南京市急救指挥中心", Fkjqlb = "结果反馈", Ext1 = "0", Ext2 = "", Ext3 = "", Ext4 = "", Ext5 = ""};
+                        InfoBll.Update_FEEDBACK(jhFeedback);
                         Core.GetInstance().BussMap.TryRemove(obj.Zldbh, out Business _bus);
                         InfoBll.Update_WORKORDER(obj.Zldbh, "50");
                     }

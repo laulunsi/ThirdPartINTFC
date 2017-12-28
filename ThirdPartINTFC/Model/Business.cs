@@ -14,7 +14,8 @@ namespace ZIT.ThirdPartINTFC.Model
         private List<string> _vehList;
 
         private string _jhccph;
-        //private string _lsh;
+
+        private string _lsh;
 
         #region 构造函数
 
@@ -69,9 +70,9 @@ namespace ZIT.ThirdPartINTFC.Model
 
         public string Jhccph { get => _jhccph; set => _jhccph = value; }
 
-        ///// <summary>
-        ///// 120调度系统流水号
-        ///// </summary>
-        //public string Lsh { get => _lsh; set => _lsh = value; }
+        /// <summary>
+        /// 120调度系统流水号
+        /// </summary>
+        public string Lsh { get => _lsh; set => _lsh = value; }
     }
 }
