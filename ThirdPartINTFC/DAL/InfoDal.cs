@@ -20,7 +20,7 @@ namespace ZIT.ThirdPartINTFC.DAL
         public static IList<Business> Get_BUSSINFO()
         {
             //return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1,CREATETIME,JHCCPH FROM V_BUSSINFO", CommandType.Text, null);
-            return OracleHelper.ExecuteList<Business>("select A.ZLDBH,A.EXT1,A.CREATETIME,B.JHCCPH from jh_workorder A,Jh_Ambulanceinfo B where A.EXT1<'50' and (sysdate - A.createTime)< 1and B.ZLDBH = A.ZLDBH", CommandType.Text, null);
+            return OracleHelper.ExecuteList<Business>("select A.ZLDBH,A.EXT1,A.CREATETIME,B.JHCCPH,C.FKDBH AS LSH from jh_workorder A,Jh_Ambulanceinfo B,JH_FEEDBACK C where A.EXT1<'50' and (sysdate - A.createTime)< 1and B.ZLDBH = A.ZLDBH and C.ZLDBH = A.ZLDBH", CommandType.Text, null);
         }
 
         public static IList<JhWorkorder> Get_WORKORDER()

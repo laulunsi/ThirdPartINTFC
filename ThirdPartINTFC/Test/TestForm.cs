@@ -174,7 +174,7 @@ namespace Test
                 JhSigninfo jh = new JhSigninfo()
                 {
                     Zldbh = txtZLDBH.Text,
-                    Qsdw = "南京急救指挥中心",
+                    Qsdw = "南京市急救指挥中心",
                     Qsr = "张三",
                     Qssj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     Ext1 = "0"
@@ -197,7 +197,7 @@ namespace Test
                 JhChargeback jh = new JhChargeback()
                 {
                     Zldbh = txtZLDBH.Text,
-                    Tddw = "南京急救指挥中心",
+                    Tddw = "南京市急救指挥中心",
                     Tdr = "张三",
                     Tdsj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     Tdyy = txtTDYY.Text,
@@ -222,7 +222,7 @@ namespace Test
                 {
                     Zldbh = txtZLDBH.Text,
                     Fkdbh = "120" + txtZLDBH.Text,
-                    Fkdw = "南京急救指挥中心",
+                    Fkdw = "南京市急救指挥中心",
                     Fkr = "张三",
                     Fksj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     Fknr = txtFK.Text,
@@ -247,7 +247,7 @@ namespace Test
                 {
                     Zldbh = txtZLDBH.Text,
                     Jhccph = cphDictionary[int.Parse(cmbCL.Text)],
-                    Ssjg = "南京急救指挥中心",
+                    Ssjg = "南京市急救指挥中心",
                     Lxdh = "13333333333",
                     Jsyxm = "赵四",
                     Ysxm = "徐某",
