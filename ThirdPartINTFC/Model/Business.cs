@@ -15,6 +15,7 @@ namespace ZIT.ThirdPartINTFC.Model
 
         private string _jhccph;
 
+        private string _lsh;
 
         #region 构造函数
 
