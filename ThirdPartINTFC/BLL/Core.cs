@@ -122,6 +122,12 @@ namespace ZIT.ThirdPartINTFC.BLL
         {
             try
             {
+                Flag = false;
+                Bs.Client.Connected -= BSClient_Connected;
+                Bs.Client.DisConnected -= BSClient_DisConnected;
+                Gs.Client.Connected -= GSClient_Connected;
+                Gs.Client.DisConnected -= GSClient_DisConnected;
+
                 Bs.Close();
                 Gs.Close();
             }
