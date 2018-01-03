@@ -1,5 +1,6 @@
 ﻿using LogUtility;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
@@ -8,11 +9,11 @@ using ZIT.ThirdPartINTFC.Utils;
 
 namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
 {
-    public class MessageHandler
+    public class BSMessageHandler 
     {
         #region 构造方法
 
-        public MessageHandler()
+        public BSMessageHandler()
         {
         }
 
@@ -49,7 +50,9 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                 case "5217":
                     Handle5217Message(message);
                     break;
-
+                case "5220":
+                    Handle5220Message(message);
+                    break;
                 default:
                     break;
             }
@@ -194,6 +197,39 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             {
                 LogUtility.DataLog.WriteLog(LogLevel.Info, $"插入车辆节点信息失败，编号：{obj.Zldbh}，车辆编号：{obj.Jhccph}", new RunningPlace("HandleMessage", "Handle5217Message"), "Running");
             }
+        }
+
+        /// <summary>
+        /// 获取车辆id CPH值对关系
+        /// </summary>
+        /// <param name="message"></param>
+        private void Handle5220Message(string message)
+        {
+            VehInfo obj = GetModelFromMsg<VehInfo>(message);
+            if (!string.IsNullOrEmpty(obj.Clidlist) && !string.IsNullOrEmpty(obj.Cphlist))
+            {
+                string[] clidlst = obj.Clidlist.Split('-');
+                string[] cphlst = obj.Cphlist.Split('-');
+                if (cphlst.Length != clidlst.Length || cphlst.Length == 0)
+                {
+                    LogUtility.DataLog.WriteLog(LogLevel.Info, $"值对关系不存在，内容：{message}", new RunningPlace("HandleMessage", "Handle5220Message"), "Running");
+
+                }
+                else
+                {
+                    Dictionary<string, string> lst = new Dictionary<string, string>();
+                    for (int i = 0; i < cphlst.Length; i++)
+                    {
+                        if (!lst.ContainsKey(clidlst[i]))
+                        {
+                            lst.Add(clidlst[i], cphlst[i]);
+                        }
+                        
+                    }
+                    Core.GetInstance().VehMap = lst;
+                }
+            }
+            
         }
 
         /// <summary>

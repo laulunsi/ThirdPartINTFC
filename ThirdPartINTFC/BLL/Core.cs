@@ -37,7 +37,11 @@ namespace ZIT.ThirdPartINTFC.BLL
         /// 业务信息集合
         /// </summary>
         public ConcurrentDictionary<string, Business> BussMap;
-
+        
+        /// <summary>
+        /// 车辆信息集合
+        /// </summary>
+        public Dictionary<string, string> VehMap;
         /// <summary>
         /// Core实例
         /// </summary>
@@ -51,6 +55,7 @@ namespace ZIT.ThirdPartINTFC.BLL
 
         public Core()
         {
+            VehMap = new Dictionary<string, string>();
             //获取当前未完成的任务
             GetBussMap();
             //初始化业务服务器连接
@@ -223,6 +228,9 @@ namespace ZIT.ThirdPartINTFC.BLL
 
         private void BSClient_Connected()
         {
+            //获取车辆的对应关系
+            string Message = "[5219]";
+            Bs.SendMsg(Message);
             //显示连接成功
             RaiseStatusChangedEvent(new StatusChanged() { Status = ConStatus.Connected, Module = FunModule.Bs });
         }
