@@ -13,7 +13,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
     public class GSHandleMessage
     {
         #region 构造方法
-
+5206
         public GSHandleMessage()
         {
         }
