@@ -1,0 +1,31 @@
+﻿日志时间:2018-01-03 18:58:22
+日志级别:Info
+日志位置:类[OracleHelper],方法[ExecuteTest]
+日志内容:ORA-03113: end-of-file on communication channel
+Process ID: 4676
+Session ID: 71 Serial number: 976
+
+
+日志时间:2018-01-03 18:58:22
+日志级别:Info
+日志位置:类[Core],方法[DA_DisConnected]
+日志内容:数据库报错：连接数据库失败
+
+日志时间:2018-01-03 18:58:23
+日志级别:Info
+日志位置:类[OracleHelper],方法[ExecuteList]
+日志内容:ORA-12170: TNS:Connect timeout occurred
+
+
+日志时间:2018-01-03 18:58:23
+日志级别:Info
+日志位置:类[OracleHelper],方法[ExecuteList]
+日志内容:ORA-12170: TNS:Connect timeout occurred
+
+
+日志时间:2018-01-03 18:59:44
+日志级别:Info
+日志位置:类[OracleHelper],方法[ExecuteTest]
+日志内容:ORA-12170: TNS:Connect timeout occurred
+
+

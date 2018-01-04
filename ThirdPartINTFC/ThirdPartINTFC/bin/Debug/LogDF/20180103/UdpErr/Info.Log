@@ -1,0 +1,65 @@
+﻿日志时间:2018-01-03 11:29:19
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 11:31:19
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：服务器主机地址Ping失败，地址：192.168.10.192
+
+日志时间:2018-01-03 11:33:03
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：服务器主机地址Ping失败，地址：192.168.10.192
+
+日志时间:2018-01-03 11:41:23
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 12:04:07
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 12:09:07
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 12:31:21
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 12:35:26
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 12:43:38
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 14:25:08
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 14:30:37
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 14:32:58
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+
+日志时间:2018-01-03 23:00:32
+日志级别:Info
+日志位置:类[Core],方法[BSClient_DisConnected]
+日志内容:BSSClient报错：握手超时，已断开
+

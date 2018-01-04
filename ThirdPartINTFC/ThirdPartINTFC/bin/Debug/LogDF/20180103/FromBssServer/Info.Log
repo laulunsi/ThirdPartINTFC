@@ -1,0 +1,125 @@
+﻿日志时间:2018-01-03 11:28:49
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:10001收到消息:dsdsssdsds
+
+日志时间:2018-01-03 12:34:16
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[[5211ZLDBH:2017122000002*#QSDW:*#QSR:*#QSSJ:2018-01-03 12:34:05*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]]
+
+日志时间:2018-01-03 12:38:29
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[[5211ZLDBH:2017122000002*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 12:38:18*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]]
+
+日志时间:2018-01-03 12:45:26
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[[5211ZLDBH:2017122000003*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 12:45:09*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]]
+
+日志时间:2018-01-03 14:25:17
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[[5211ZLDBH:2018010300001*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 14:24:39*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]]
+
+日志时间:2018-01-03 14:25:46
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5211ZLDBH:2018010300001*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 14:25:35*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 14:27:56
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5215ZLDBH:2018010300001*#JHCCPH:苏A-6RT01*#SSJG:城南急救站*#LXDH:120*#JSYXM:*#YSXM:*#YSDH:*#GPSSTATUS:1*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+
+日志时间:2018-01-03 14:29:05
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[[5217ZLDBH:2018010300001*#JHCCPH:苏A-6RT01*#STATUS:出车*#CHECI:*#TIME:2018-01-03 14:28:53*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]]
+
+日志时间:2018-01-03 14:31:28
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300001*#JHCCPH:苏A-6RT01*#STATUS:到达现场*#CHECI:*#TIME:2018-01-03 14:29:59*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:09:05
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300001*#JHCCPH:苏A-6RT01*#STATUS:病人上车*#CHECI:01*#TIME:2018-01-03 14:32:15*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:11:21
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5211ZLDBH:2018010300002*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 15:11:06*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:11:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5214ZLDBH:2018010300002*#FKDBH:2018010300000000006*#FKDW:南京市急救中心*#FKR:周磊*#FKSJ:2018-01-03 15:11:31*#FKNR:*#FKJQLB:过程反馈*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+
+日志时间:2018-01-03 15:12:54
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5214ZLDBH:2018010300002*#FKDBH:2018010300000000006*#FKDW:南京市急救中心*#FKR:周磊*#FKSJ:2018-01-03 15:12:43*#FKNR:120测试测试再发下*#FKJQLB:过程反馈*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+
+日志时间:2018-01-03 15:19:36
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5214ZLDBH:2018010300002*#FKDBH:2018010300000000006*#FKDW:南京市急救中心*#FKR:周磊*#FKSJ:2018-01-03 15:19:25*#FKNR:哒哒哒哒*#FKJQLB:过程反馈*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+
+日志时间:2018-01-03 15:20:41
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5215ZLDBH:2018010300002*#JHCCPH:苏A-962G5*#SSJG:双闸医院分站*#LXDH:120*#JSYXM:*#YSXM:*#YSDH:*#GPSSTATUS:1*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+
+日志时间:2018-01-03 15:20:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300002*#JHCCPH:苏A-962G5*#STATUS:出车*#CHECI:01*#TIME:2018-01-03 15:20:16*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:20:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300002*#JHCCPH:苏A-962G5*#STATUS:到达现场*#CHECI:01*#TIME:2018-01-03 15:20:19*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:20:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300002*#JHCCPH:苏A-962G5*#STATUS:病人上车*#CHECI:01*#TIME:2018-01-03 15:20:21*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:20:43
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300002*#JHCCPH:苏A-962G5*#STATUS:送达医院*#CHECI:01*#TIME:2018-01-03 15:20:23*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:20:43
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5217ZLDBH:2018010300002*#JHCCPH:苏A-962G5*#STATUS:任务完成*#CHECI:01*#TIME:2018-01-03 15:20:25*#RWZZYY:*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:23:19
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5212ZLDBH:2018010300003*#TDBH:2018010300003*#TDDW:南京市急救中心*#TDR:周磊*#TDSJ:2018-01-03 15:23:08*#TDYY:没车了*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#TH:2*# 1819]
+
+日志时间:2018-01-03 15:23:41
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5211ZLDBH:2018010300004*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 15:23:30*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:26:56
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5211ZLDBH:2018010300006*#QSDW:南京市急救中心*#QSR:周磊*#QSSJ:2018-01-03 15:26:45*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:29:40
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5214ZLDBH:2018010300006*#FKDBH:2018010300000000008*#FKDW:南京市急救中心*#FKR:周磊*#FKSJ:2018-01-03 15:29:29*#FKNR:冬随冬随多所*#FKJQLB:过程反馈*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+
+日志时间:2018-01-03 15:32:44
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_ReceiveEvent]
+日志内容:地址：192.168.10.6:1003收到消息:[5214ZLDBH:2018010300006*#FKDBH:2018010300000000008*#FKDW:南京市急救中心*#FKR:周磊*#FKSJ:2018-01-03 15:32:33*#FKNR:发的的*#FKJQLB:过程反馈*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*# 1819]
+

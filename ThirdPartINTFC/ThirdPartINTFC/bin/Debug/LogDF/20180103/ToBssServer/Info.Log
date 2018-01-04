@@ -1,0 +1,105 @@
+﻿日志时间:2018-01-03 11:39:48
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2017122000002*#BJR:某某*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-01-03 11:38:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 11:40:58
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2017122000002*#BJR:某某*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-01-03 11:38:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 12:42:36
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2017122000003*#BJR:某某*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-01-03 11:38:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 14:24:24
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2018010300001*#BJR:张三*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-1-3 14:23:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 14:26:03
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhSigninfo*#REASON:插入签收信息成*#]
+
+日志时间:2018-01-03 14:27:56
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhAmbulanceinfo*#REASON:插入派车信息成功*#]
+
+日志时间:2018-01-03 15:10:43
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2018010300002*#BJR:zhasna*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-1-3 14:23:38*#BAJNR:车祸  asasd*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:11:31
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhSigninfo*#REASON:插入签收信息成*#]
+
+日志时间:2018-01-03 15:11:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhFeedback*#REASON:插入工单处置信息成功*#]
+
+日志时间:2018-01-03 15:12:55
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhFeedback*#REASON:插入工单处置信息成功*#]
+
+日志时间:2018-01-03 15:19:37
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhFeedback*#REASON:插入工单处置信息成功*#]
+
+日志时间:2018-01-03 15:20:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhAmbulanceinfo*#REASON:插入派车信息成功*#]
+
+日志时间:2018-01-03 15:22:45
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2018010300003*#BJR:nni*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-1-3 14:23:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:23:05
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2018010300004*#BJR:zhangsna*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-1-3 14:23:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:23:19
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhChargeback*#REASON:插入退单信息成功*#]
+
+日志时间:2018-01-03 15:23:42
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhSigninfo*#REASON:插入签收信息成*#]
+
+日志时间:2018-01-03 15:24:45
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2018010300005*#BJR:某某*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-1-3 14:23:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:26:06
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5210ZLDBH:2018010300006*#BJR:某某*#XB:男*#LXDH:15255515151*#SFDZ:南京市体育广场*#BJSJ:2018-1-3 14:23:38*#BAJNR:车祸*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]
+
+日志时间:2018-01-03 15:26:56
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhSigninfo*#REASON:插入签收信息成*#]
+
+日志时间:2018-01-03 15:29:40
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhFeedback*#REASON:插入工单处置信息成功*#]
+
+日志时间:2018-01-03 15:32:44
+日志级别:Info
+日志位置:类[BSSClient],方法[Client_SendEvent]
+日志内容:向地址：192.168.10.6:1003发送消息:[5218RESULT:1*#TYPE:JhFeedback*#REASON:插入工单处置信息成功*#]
+
