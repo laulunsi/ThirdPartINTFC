@@ -10,3 +10,4 @@ F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.pdb
 D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\bin\Debug\LogUtility.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\bin\Debug\LogUtility.dll
 F:\Work Space\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+D:\Code\ThirdPartINTFC\ThirdPartINTFC\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache

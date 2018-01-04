@@ -208,8 +208,8 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             VehInfo obj = GetModelFromMsg<VehInfo>(message);
             if (!string.IsNullOrEmpty(obj.Clidlist) && !string.IsNullOrEmpty(obj.Cphlist))
             {
-                string[] clidlst = obj.Clidlist.Split('-');
-                string[] cphlst = obj.Cphlist.Split('-');
+                string[] clidlst = obj.Clidlist.Split('_');
+                string[] cphlst = obj.Cphlist.Split('_');
                 if (cphlst.Length != clidlst.Length || cphlst.Length == 0)
                 {
                     LogUtility.DataLog.WriteLog(LogLevel.Info, $"值对关系不存在，内容：{message}", new RunningPlace("HandleMessage", "Handle5220Message"), "Running");
