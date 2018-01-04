@@ -49,8 +49,10 @@
     <Compile Include="JHBusiness\JH_FEEDBACK.cs" />
     <Compile Include="JHBusiness\JH_SIGNINFO.cs" />
     <Compile Include="JHBusiness\JH_WORKORDER.cs" />
+    <Compile Include="JHBusiness\VehPosition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultInfo.cs" />
+    <Compile Include="VehInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

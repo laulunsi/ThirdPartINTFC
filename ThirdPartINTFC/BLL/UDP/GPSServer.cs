@@ -9,7 +9,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
     {
         #region 变量
 
-        private MessageHandler _handler;
+        private BSMessageHandler _handler;
 
         internal Client Client = null;
 
@@ -21,7 +21,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
 
         public GServer()
         {
-            _handler = new MessageHandler();
+            _handler = new BSMessageHandler();
             Client = new Client();
         }
 
