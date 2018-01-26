@@ -121,7 +121,7 @@ namespace ZIT.ThirdPartINTFC.BLL
                 ConcurrentDictionary<string, Business> temp = new ConcurrentDictionary<string, Business>(BussMap.Where(p => (DateTime.Now - p.Value.CreateTime).TotalHours >= 24).ToDictionary(key => key.Key, business => business.Value));
                 foreach (var bus in temp)
                 {
-                    JhFeedback jhFeedback = new JhFeedback() { Zldbh = bus.Key, Fkr = "", Fkdbh = bus.Value.Lsh, Fksj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Fknr = "任务受理超时，强制结束", Fkdw = "南京市急救指挥中心", Fkjqlb = "结果反馈", Ext1 = "0", Ext2 = "", Ext3 = "", Ext4 = "", Ext5 = "" };
+                    JhFeedback jhFeedback = new JhFeedback() { Zldbh = bus.Key, Fkr = "系统", Fkdbh = bus.Value.Lsh, Fksj = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Fknr = "任务受理超时，强制结束", Fkdw = "南京市急救指挥中心", Fkjqlb = "结果反馈", Ext1 = "0", Ext2 = "", Ext3 = "", Ext4 = "", Ext5 = "" };
                     InfoBll.Update_FEEDBACK(jhFeedback);
                 }
                 BussMap = new ConcurrentDictionary<string, Business>(BussMap.Where(p => (DateTime.Now - p.Value.CreateTime).TotalHours < 24).ToDictionary(key => key.Key, business => business.Value));

@@ -65,18 +65,18 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             //非广播客户端模式
             if (RemoteIpep != null)
             {
-                if (Ping(Convert.ToString(RemoteIpep.Address)))
-                {
+                //if (Ping(Convert.ToString(RemoteIpep.Address)))
+                //{
                     //_blnConnect = true;
                     //RaiseConnected();
                     ThreadPool.QueueUserWorkItem(ReceiveMsg);
                     ThreadPool.QueueUserWorkItem(HandShake);
-                }
-                else
-                {
-                    _blnConnect = false;
-                    RaiseDisConnected($"服务器主机地址Ping失败，地址：{Convert.ToString(RemoteIpep.Address)}");
-                }
+                //}
+                //else
+                //{
+                //    _blnConnect = false;
+                //    RaiseDisConnected($"服务器主机地址Ping失败，地址：{Convert.ToString(RemoteIpep.Address)}");
+                //}
             }
             else
             {
