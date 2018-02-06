@@ -19,28 +19,17 @@ namespace ZIT.ThirdPartINTFC.DAL
 
         public static IList<Business> Get_BUSSINFO()
         {
-            //return OracleHelper.ExecuteList<Business>("SELECT ZLDBH,EXT1,CREATETIME,JHCCPH FROM V_BUSSINFO", CommandType.Text, null);
-            return OracleHelper.ExecuteList<Business>("select A.ZLDBH,A.EXT1,A.CREATETIME,B.JHCCPH,C.FKDBH AS LSH from jh_workorder A,Jh_Ambulanceinfo B,JH_FEEDBACK C where A.EXT1<'50' and (sysdate - A.createTime)< 1and B.ZLDBH = A.ZLDBH and C.ZLDBH = A.ZLDBH", CommandType.Text, null);
+            return OracleHelper.ExecuteList<Business>("select * from V_BUSSINFO", CommandType.Text, null);
         }
 
         public static IList<JhWorkorder> Get_WORKORDER()
         {
-            //return OracleHelper.ExecuteList<JhWorkorder>(
-            //    "SELECT BAJNR,BJR,BJSJ,LXDH,SFDZ,XB,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_WORKORDER", CommandType.Text,
-            //    null);
-            return OracleHelper.ExecuteList<JhWorkorder>(
-                "select BAJNR,BJR,BJSJ,LXDH,SFDZ,XB,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5,CREATETIME from jh_workorder where Ext1='0' and (sysdate - createTime)<1", CommandType.Text,
-                null);
+            return OracleHelper.ExecuteList<JhWorkorder>("select * from V_WORKORDER", CommandType.Text, null);
         }
 
         public static IList<JhChargebackresult> Get_CHARGEBACKRESULT()
         {
-            //return OracleHelper.ExecuteList<JhChargebackresult>(
-            //    "SELECT JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5 FROM V_CHARGEBACKRESULT", CommandType.Text,
-            //    null);
-            return OracleHelper.ExecuteList<JhChargebackresult>(
-                "select JJTDLY,TDBH,TDJG,ZLDBH,EXT1,EXT2,EXT3,EXT4,EXT5,CREATETIME from JH_CHARGEBACKRESULT where Ext1='0' and (sysdate - createTime)<1", CommandType.Text,
-                null);
+            return OracleHelper.ExecuteList<JhChargebackresult>("select * from V_CHARGEBACKRESULT", CommandType.Text, null);
         }
 
         public static bool Update_WORKORDER(string zldbh, string zt)

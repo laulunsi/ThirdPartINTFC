@@ -40,17 +40,22 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             try
             {
                 VehPosition obj = GetModelFromMsg<VehPosition>(message);
+                
                 string strCPH = Core.GetInstance().VehMap.ContainsKey(obj.Id) ? Core.GetInstance().VehMap[obj.Id] : string.Empty;
                 if (strCPH != string.Empty)
                 {
                     string ZLDBH = string.Empty;
                     foreach (var item in Core.GetInstance().BussMap)
                     {
-                        item.Value.VehList.Contains(strCPH);
-                        ZLDBH = item.Key;
+                        if (item.Value.VehList.Contains(strCPH))
+                        {
+                            ZLDBH = item.Key;
+                        }
+                        
                     }
                     if (ZLDBH != string.Empty)
                     {
+
                         message = $"[5216ZLDBH:{ZLDBH}*#JHCCPH:{strCPH}*#XZB:{obj.Jd}*#YZB:{obj.Wd}*#TIME:{obj.Sj}*#EXT1:0*#EXT2:*#EXT3:*#EXT4:*#EXT5:*#]";
                         Handle5216Message(message);
                     }
@@ -59,13 +64,13 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             }
             catch (Exception ex)
             {
-
+                LogUtility.DataLog.WriteLog(LogLevel.Info, ex.Message, new RunningPlace("HandleMessage", "Handle40Message"), "ComErr");
             }
         }
 
         private void Handle5216Message(string message)
         {
-            JhAmbulanceposition obj = GetModelFromMsg<JhAmbulanceposition>(message);
+            JhAmbulanceposition obj = BSMessageHandler.GetModelFromMsg<JhAmbulanceposition>(message);
             if (Core.GetInstance().BussMap.Where(p => p.Value.VehList.Contains(obj.Jhccph)).ToList().Count > 0)
             {
                 if (InfoBll.Update_AMBULANCEPOSITION(obj))

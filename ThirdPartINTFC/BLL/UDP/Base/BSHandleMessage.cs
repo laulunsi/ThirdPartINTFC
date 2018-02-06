@@ -112,13 +112,21 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
                 Core.GetInstance().Bs.SendMsg(StringHelper.CombinMsg<ResultInfo>("5218", new ResultInfo() { Result = 1, Reason = "插入工单处置信息成功", Type = MsgType.JhFeedback }));
                 LogUtility.DataLog.WriteLog(LogLevel.Info, $"插入工单处置信息成功，编号：{obj.Zldbh}", new RunningPlace("HandleMessage", "Handle5214Message"), "Running");
                 //工单处置信息成功，更正状态30
-                Core.GetInstance().BussMap.TryGetValue(obj.Zldbh, out Business bus);
-                if (bus != null)
+                if (obj.Fkjqlb == "过程反馈")
                 {
-                    bus.Zt = "30";
-                    bus.Lsh = obj.Fkdbh;
-                    Core.GetInstance().BussMap.TryUpdate(obj.Zldbh, bus, bus);
-                    InfoBll.Update_WORKORDER(obj.Zldbh, "30");
+                    Core.GetInstance().BussMap.TryGetValue(obj.Zldbh, out Business bus);
+                    if (bus != null)
+                    {
+                        bus.Zt = "30";
+                        bus.Lsh = obj.Fkdbh;
+                        Core.GetInstance().BussMap.TryUpdate(obj.Zldbh, bus, bus);
+                        InfoBll.Update_WORKORDER(obj.Zldbh, "30");
+                    }
+                }
+                else if(obj.Fkjqlb == "结果反馈")
+                {
+                    Core.GetInstance().BussMap.TryRemove(obj.Zldbh, out Business bus);
+                    InfoBll.Update_WORKORDER(obj.Zldbh, "52");
                 }
             }
             else
@@ -174,7 +182,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
         private void Handle5217Message(string message)
         {
             JhAmbulancestatus obj = GetModelFromMsg<JhAmbulancestatus>(message);
-            if (obj.Status == "任务完成" || obj.Status == "任务中止")
+            if (obj.Status == "任务完成" || obj.Status == "任务终止")
             {
                 Core.GetInstance().BussMap.TryGetValue(obj.Zldbh, out Business bus);
                 if (bus != null)
@@ -251,7 +259,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             }
         }
 
-        private T GetModelFromMsg<T>(string message)
+        public static T GetModelFromMsg<T>(string message)
         {
             T obj = default(T);
             try
@@ -271,7 +279,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP.Base
             return obj;
         }
 
-        private string GetValueByKey(string message, string key)
+        private static string GetValueByKey(string message, string key)
         {
             string strReturn = "";
 

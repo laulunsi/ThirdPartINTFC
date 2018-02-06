@@ -9,7 +9,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
     {
         #region 变量
 
-        private BSMessageHandler _handler;
+        private GSHandleMessage _handler;
 
         internal Client Client = null;
 
@@ -21,7 +21,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
 
         public GServer()
         {
-            _handler = new BSMessageHandler();
+            _handler = new GSHandleMessage();
             Client = new Client();
         }
 
@@ -59,7 +59,7 @@ namespace ZIT.ThirdPartINTFC.BLL.UDP
         private void Client_ReceiveEvent(string message, System.Net.IPEndPoint ipep)
         {
             //写日志处理
-            LogUtility.DataLog.WriteLog(LogLevel.Info, string.Format("地址：{0}收到消息:{1}", Convert.ToString(ipep), message), new RunningPlace("GServer", "Client_ReceiveEvent"), "FromBssServer");
+            //LogUtility.DataLog.WriteLog(LogLevel.Info, string.Format("地址：{0}收到消息:{1}", Convert.ToString(ipep), message), new RunningPlace("GServer", "Client_ReceiveEvent"), "FroGPSServer");
             Task.Factory.StartNew(() => _handler.HandleMessage(message));
         }
 

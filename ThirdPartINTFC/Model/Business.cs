@@ -59,7 +59,9 @@ namespace ZIT.ThirdPartINTFC.Model
         /// 20签收工单  21退单
         /// 30处置回馈
         /// 40派车
-        /// 50完成/退单反馈
+        /// 50完成
+        /// 51退单反馈
+        /// 52结果反馈
         /// </summary>
         public string Zt { get => _zt; set => _zt = value; }
 
